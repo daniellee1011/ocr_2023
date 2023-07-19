@@ -1,0 +1,2 @@
+default_dpi:300
+higher_dpi:600
