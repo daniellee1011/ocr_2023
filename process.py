@@ -11,17 +11,24 @@ default_dpi = int(util[0])
 higher_dpi = int(util[1])
 
 # process to handle files from 1994 to 1997
+
+
 def process9497(pdf_path, pdf_file, country_folder):
+    # print('process9497 function called')
     pdf_text = oe.extract_text_from_pdf(pdf_path, default_dpi)
     text_columns = tc.text_to_column(pdf_text)
-    row = text_columns[:-1] + [pdf_file[:-4], country_folder] + text_columns[-1:] #add column K and L
+    row = text_columns[:-1] + [pdf_file[:-4], country_folder] + \
+        text_columns[-1:]  # add column K and L
     return row
 
 # process to handle files from 1998
+
+
 def process98(pdf_path, pdf_file, country_folder):
+    # print('process98 function called')
     global higher_dpi
     pdf_text_old = oe.extract_text_from_pdf(pdf_path, default_dpi)
-    text_columns = tc.text_to_column(pdf_text_old)
+    text_columns, part1_text = tc.text_to_column(pdf_text_old)
 
     # check if date was extracted correctly
     attempts = 0
@@ -38,7 +45,6 @@ def process98(pdf_path, pdf_file, country_folder):
         print(f"Get date in the {attempts}th attempt")
     elif attempts == 30:
         print(f"Get date failed with {attempts} attempts")
-    row = text_columns[:-1] + [pdf_file[:-4], country_folder] + text_columns[-1:] #add column K and L
-    return row
-
-
+    row = text_columns[:-1] + [pdf_file[:-4], country_folder] + \
+        text_columns[-1:]  # add column K and L
+    return row, part1_text
