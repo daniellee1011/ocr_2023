@@ -4,6 +4,8 @@ from datetime import datetime
 
 date_pattern = r'\b\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}\b'
 # Extract year (A) and date (J)
+
+
 def extract_date(text):
     """
     Extracts the year and date from the given text.
@@ -21,21 +23,21 @@ def extract_date(text):
         dd = int(date.split()[0])
         if dd > 31:
             return date.split()[-1], 'N/A'
-        
+
         try:
             date_obj = datetime.strptime(date, '%d %B %Y')
         except ValueError:
             date_obj = None
-        
-        if date_obj: 
+
+        if date_obj:
             # change to mm/dd/yyyy format
-            formatted_date = date_obj.strftime('%m/%d/%Y') #column J
-            year = formatted_date[-4:] #column A
+            formatted_date = date_obj.strftime('%m/%d/%Y')  # column J
+            year = formatted_date[-4:]  # column A
         else:
-            formatted_date = year = 'N/A'  
+            formatted_date = year = 'N/A'
     else:
         formatted_date = year = 'N/A'
-        #print("No date found")
+        # print("No date found")
     return year, formatted_date
 
 
@@ -53,19 +55,33 @@ def remove_empty(text):
         return 'N/A'
     cleaned_text = ' '.join(text.split())
     return cleaned_text if cleaned_text else 'N/A'
-    
 
 
 # read council list from text file and store in a list
 with open('.\helper_data\council_list.txt', 'r') as f:
     council_list = [line.strip() for line in f]
-
+council_tokens = [council.lower().split() for council in council_list]
 council_names = '|'.join(council_list)
-# create council/commitee pattern based on council list and ignore case
 council_pattern = re.compile(fr"{council_names}", re.IGNORECASE)
 general_assembly_pattern = re.compile(r'General Assembly', re.IGNORECASE)
 # Extract council/committee name (B)
+
+
 def extract_council(text):
+    # print('extract_council function called')
+    texts = text.lower().split('\n\n')
+    for text in texts:
+        # text_tokens = text.split(' ')
+        text_tokens = re.split('\n| ', text)
+        for council_token in council_tokens:
+            if (len(set(council_token).intersection(set(text_tokens))) >= 2):
+                return ' '.join(council_token).title()
+
+    print("Council Name not found")
+    return 'N/A'
+
+
+def extract_council_(text):
     """
     Extracts the council or committee name from the given text.
 
@@ -96,6 +112,8 @@ def extract_council(text):
 session_pattern = r'(?P<session>[\w-]+\s*session)'
 
 # Extract session (C)
+
+
 def extract_session(text):
     """
     Extracts the session information from the given text.
@@ -117,6 +135,7 @@ def extract_session(text):
 
 country_pattern = r'^[A-Za-z]+(, [A-Za-z]+)*( and [A-Za-z]+)?$'
 
+
 def helper_extract_countries(text):
     """
     Extracts countries and footnotes from the given text.
@@ -129,16 +148,16 @@ def helper_extract_countries(text):
     """
     footnote = ''
     countries = ''
-    
+
     if len(text) == 1:
         countries = text[0]
         return countries, footnote
-    
+
     for i in range(len(text)):
         part = text[i].replace('\n', ' ')
         match = re.search(country_pattern, part)
         temp = part.split(',')
-        
+
         if part.isupper():
             footnote += part
         elif match:
@@ -151,11 +170,13 @@ def helper_extract_countries(text):
             footnote += part
     return countries, footnote
 
+
 agenda_pattern = r'Agenda item (\d+)(?: \((\w+)\))?(?:\n\n)?'
 agendas_pattern = r'Agenda items (\d+ \(\w+\)? and \d+)'
 sp_agenda_pattern = r'Item (\d+ ?)(?: \((\w+)\) ?)?of the provisional agenda'
 draft_pattern = r':? *([\w ]*|[\n]*)? ?draft'
-#case_sensitive_pattern = re.compile(pattern)
+# case_sensitive_pattern = re.compile(pattern)
+
 
 def extract_agenda_countries(text):
     """
@@ -216,7 +237,7 @@ def extract_agenda_countries(text):
         footnote = 'N/A'
         agenda_detail = 'N/A'
 
-    #print(agenda_detail)
+    # print(agenda_detail)
     if 'UNITED\nNATIONS S' in agenda_detail:
         agenda_detail = 'N/A'
 
@@ -235,18 +256,20 @@ def split_text(text):
     """
     # Delete extracted text
     split_text = re.split(draft_pattern, text)
-    
+
     part1_text = split_text[0]
     part2_text = split_text[2:]
     part2_text = '\n\n'.join(part2_text)
-    
+
     return part1_text, part2_text
 
 
-#text_head_pattern = r'(The General Assembly,|The Commission on Human Rights,|The Human Rights Council |The Economic and Social Council,|1\.)'
-text_head_pattern = r'(The ' + '|The '.join(council_list) + r',|1\.|The General Assembly|Add the following|The General Assembl|General Assembly)'
+# text_head_pattern = r'(The General Assembly,|The Commission on Human Rights,|The Human Rights Council |The Economic and Social Council,|1\.)'
+text_head_pattern = r'(The ' + '|The '.join(council_list) + \
+    r',|1\.|The General Assembly|Add the following|The General Assembl|General Assembly)'
 
 number_title_pattern = r'^\s*(\d{4})?/?\W*(.*)'
+
 
 def extract_body_title(text):
     """
@@ -259,7 +282,7 @@ def extract_body_title(text):
         tuple: A tuple containing body title number (str), body title (str), and body text (str).
     """
     title_body_text = re.split(text_head_pattern, text)
-    #print(title_body_text)
+    # print(title_body_text)
     body = ' '.join([text for text in title_body_text[1:] if text is not None])
     title_text = title_body_text[0]
     title_text = title_text.replace('\n', ' ')
@@ -289,7 +312,9 @@ def extract_body_title(text):
 
     return title_number, title, body
 
+
 footnote_pattern = r'^(\*|\d(?![./])|\d{1}/)\s.*'
+
 
 def extract_body(text):
     """
@@ -305,7 +330,7 @@ def extract_body(text):
     footnote = []
     footnote_idx = 1
     paragraphs = text.split('\n\n')
-    
+
     for paragraph in paragraphs:
         paragraph = paragraph.replace("\n", " ")
         match = re.search(footnote_pattern, paragraph)
@@ -321,7 +346,7 @@ def extract_body(text):
             elif len(paragraph) >= 2:
                 if (paragraph[0] == str(footnote_idx) and paragraph[1] == '/') or paragraph[0] == "*":
                     footnote_idx += 1
-                    footnote.append(paragraph) 
+                    footnote.append(paragraph)
             if not re.search(r'(\d{2}-\d{5}|[A-Za-z]/\d{2}/[A-Za-z]\.\d|[A-Za-z ]+Please recycle|Page \d{1})', paragraph):
                 body_text += paragraph.strip() + ' '
     footnote = ' '.join(footnote)
