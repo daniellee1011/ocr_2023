@@ -109,9 +109,43 @@ def extract_council_(text):
     return council.title()
 
 
+with open('.\helper_data\committee_list.txt', 'r') as f:
+    committee_list = [line.strip() for line in f]
+committee_tokens = [committee.lower().split() for committee in committee_list]
+
+# Extract committee/commission (D)
+
+
+def extract_committee(text):
+    """
+    Extracts the committee/commission name from 'text' arguemnt
+
+    Args:
+        text (list): The text to extract the committee/commission from.
+
+    Returns:
+        String: the name of extracted committee/commission
+    """
+    texts = text.lower().split('\n\n')
+    for text in texts:
+        text_tokens = re.split('\n| ', text)
+        # subtract 1 so we don't run out of index on the next line
+        for i in range(len(text_tokens) - 1):
+            pair = text_tokens[i:i+2]  # create a pair of consecutive tokens
+            for committee_token in committee_tokens:
+                # convert the committee_token list into a list of pairs for comparison
+                committee_pairs = [committee_token[i:i+2]
+                                   for i in range(len(committee_token) - 1)]
+                if pair in committee_pairs:  # check if the pair of words from the text exists in the committee pairs
+                    return ' '.join(committee_token).title()
+
+    print("Committee Name not found")
+    return 'N/A'
+
+
 session_pattern = r'(?P<session>[\w-]+\s*session)'
 
-# Extract session (C)
+# Extract session (D)
 
 
 def extract_session(text):

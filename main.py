@@ -10,7 +10,7 @@ pdf_folder = './Dataset'
 # Path to the folder where the CSV files will be saved
 csv_folder = './csv_folder'
 # csv file column list
-column_list = ['year', 'Council', 'Session', 'Agenda item', 'Agenda detail', 'cosponsored countries',
+column_list = ['year', 'Council', 'Committee', 'Session', 'Agenda item', 'Agenda detail', 'cosponsored countries',
                'body title number',	'body title detail', 'body text', 'date', 'file', 'filecountry', 'footnote', 'scanned']
 
 # get input country name
