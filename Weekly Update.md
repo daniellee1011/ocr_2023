@@ -1,5 +1,24 @@
 # Weekly Update Log
 
+## Week of 07/31 - 08/04
+
+### Completed tasks:
+
+- Evaluated each required column for possible improvements and confirmed that all columns are necessary
+- Implemented the extract_committee function to extract committee/commission information from raw data
+- Extracted data for countries from Central African Republic to Equatorial Guinea for the year 1999. Output files from the Dominican Republic to Equatorial Guinea have been generated using the latest codes.
+- Worked on improving the accuracy of agenda item extraction
+
+### Questions and Plans:
+
+- Continue extraction from the remaining 1999 files and assess the quality of the extracted data
+- Improve the extract_agenda_countries function to increas
+
+### Answers from Prof. Yang:
+
+1. Regarding committee names, It is important information that needs to be collected.  I have noticed that there are certain documents that lack the necessary details regarding the committee names. Please examine the various committee names and devise some function to extract their names from documents correctly.
+
+
 ## Week of 07/24 - 07/28
 
 ### Completed tasks:
