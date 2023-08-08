@@ -81,34 +81,6 @@ def extract_council(text):
     return 'N/A'
 
 
-def extract_council_(text):
-    """
-    Extracts the council or committee name from the given text.
-
-    Args:
-        text (str): The text to extract the council or committee name from.
-
-    Returns:
-        str: The extracted council or committee name, or 'N/A' if not found.
-    """
-    # Replace all whitespace characters with a single space
-    text = re.sub(r'\s+', ' ', text)
-    council_match = council_pattern.search(text)
-    general_assembly_match = general_assembly_pattern.search(text)
-    council = 'N/A'
-    if council_match:
-        council = council_match.group(0).strip()
-    # handle cases where council name is not found
-    elif general_assembly_match:
-        council = 'General Assembly'
-    else:
-        print("Council Name not found")
-        council = 'N/A'
-    if council == 'Economic and Social':
-        council = 'Economic and Social Council'
-    return council.title()
-
-
 with open('.\helper_data\committee_list.txt', 'r') as f:
     committee_list = [line.strip() for line in f]
 committee_tokens = [committee.lower().split() for committee in committee_list]
