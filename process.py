@@ -32,7 +32,7 @@ def process98(pdf_path, pdf_file, country_folder):
 
     # check if date was extracted correctly
     attempts = 0
-    while text_columns[-2] == 'N/A' and attempts < 20:
+    while text_columns[-2] == 'N/A' and attempts < 1:
         pdf_text_new = oe.extract_first_page_only(pdf_path, higher_dpi)
         _, date = tc.get_date_new(pdf_text_new)
         text_columns[-2] = date
@@ -41,10 +41,6 @@ def process98(pdf_path, pdf_file, country_folder):
         if attempts % 3 == 0:
             higher_dpi += 3
 
-    if attempts < 20 and attempts > 0:
-        print(f"Get date in the {attempts}th attempt")
-    elif attempts == 20:
-        print(f"Get date failed with {attempts} attempts")
     row = text_columns[:-1] + [pdf_file[:-4], country_folder] + \
         text_columns[-1:]  # add column K and L
     return row, part1_text
