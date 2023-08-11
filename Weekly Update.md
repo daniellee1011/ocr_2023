@@ -1,5 +1,19 @@
 # Weekly Update Log
 
+## Week of 08/07 - 08/11
+
+### Completed tasks:
+
+- Extract_agenda_countries Update: Frequently missed agenda items prompted a revisit of this component. Previously, the segmentation for Tesseract was undefined, resulting in erratic splits such as ‘Agenda’, ‘item 24’, and ‘and (b)’ across three segments. For effective extraction, a combined format like ‘Agenda item 24 (b)’ is needed. As a mitigation strategy, I utilized sequences, leveraging preceding agenda items to aid in current extraction. This approach delivered partial success but remains imperfect.
+- Preprocessing Implementation: In the past, unprocessed images were directly passed to Tesseract, our OCR engine. This led to tiny segment blocks, making extraction of crucial data like council names, committee names, and agendas difficult. By enlarging these segments, Tesseract now extracts more coherent text chunks. As a result, instead of isolated fragments like 'item 24', we obtain complete data such as 'Agenda item 24 (b)'. The previous segmentation can be viewed in ‘image_with_contours.png’, while the current segmentation samples are available in the ‘segment_image’ directory. For reference, ‘Ecuador_1999_.csv’ represents output from older codes, and ‘Ecuador_1999.csv’ showcases the output from our refined processes.
+- Update council_list.txt
+- Data extraction was completed for countries spanning Ecuador to Gambia for the year 1999. The output files, ranging from Ecuador to Gambia, have been produced using the updated codes.
+
+### Questions and Plans:
+
+- Continue to evaluate the impact on remaining columns. Experiment to determine the optimal segment size for files and document the findings based on the respective year.
+- Update the helper files.
+
 ## Week of 07/31 - 08/04
 
 ### Completed tasks:
@@ -12,7 +26,8 @@
 ### Questions and Plans:
 
 - Continue extraction from the remaining 1999 files and assess the quality of the extracted data
-- Improve the extract_agenda_countries function to increas
+- Improve the extract_agenda_countries function to increase the accuracy of agenda item extraction
+- Continue working on improving the remaining functions
 
 ### Answers from Prof. Yang:
 
