@@ -58,11 +58,9 @@ def text_to_column(text):
 
     # Get council/committe name (B)
     council = extract_council(part1_text)
-    # print('text_to_column council:', council)
 
     # Get committee/commission name (C)
     committee = extract_committee(part1_text)
-    print('text_to_column committee:', committee)
 
     # Get session (D)
     session = extract_session(part1_text)
