@@ -287,31 +287,24 @@ def extract_body_title(text):
     Returns:
         tuple: A tuple containing body title number (str), body title (str), and body text (str).
     """
-    title_body_text = re.split(text_head_pattern, text)
-    # print(title_body_text)
-    body = ' '.join([text for text in title_body_text[1:] if text is not None])
+    title_body_text = text.split('\n\n')
+    title_text = title_body_text[1].replace('\n', ' ')
+    match = re.match(number_title_pattern, title_text)
+    idx = 2
+    if match:
+        title_number = match.group(1)
+        title = match.group(2)
+        if not title:
+            title = title_body_text[2].replace('\n', ' ')
+            idx = 3
+    else:
+        title = title_text
+    title_body_text = title_body_text[idx:]
+    body = ''.join(title_body_text)
+
     title_text = title_body_text[0]
     title_text = title_text.replace('\n', ' ')
 
-    match1 = re.search(r'[A-Z\d]', title_text)
-    if match1:
-        index = match1.start()
-        title_text = title_text[index-1:]
-        match2 = re.match(number_title_pattern, title_text)
-        if match2:
-            title_number = match2.group(1)
-            title = match2.group(2)
-    else:
-        title_number = 'N/A'
-        title = 'N/A'
-
-    if remove_empty(title) == remove_empty(title_text) and len(title) > 400:
-        match3 = re.search(r"[A-Z].*?[A-Z]", title)
-        if match3:
-            index = match3.end(0) - 1
-            body = title[index:]
-            body = body.replace("  ", "\n\n")
-            title = title[:index]
     title = remove_empty(title)
     if len(title.split('/')) == 3:
         title = 'N/A'
@@ -335,7 +328,7 @@ def extract_body(text):
     body_text = ''
     footnote = []
     footnote_idx = 1
-    paragraphs = text.split('\n\n')
+    paragraphs = text.split('\n')
 
     for paragraph in paragraphs:
         paragraph = paragraph.replace("\n", " ")
