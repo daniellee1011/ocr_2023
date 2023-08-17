@@ -31,6 +31,7 @@ for country_folder in os.listdir(pdf_folder):
 
     rows = []
     part1_texts = []
+    part2_texts = []
     # Loop through each file
     for pdf_file in os.listdir(os.path.join(pdf_folder, country_folder)):
         # calculate the time to process each file
@@ -52,11 +53,19 @@ for country_folder in os.listdir(pdf_folder):
             df.to_csv(csv_path, index=False)
 
             df_part1_texts = pd.DataFrame(part1_texts)
-            if not os.path.exists('./raw_text'):
-                os.makedirs('./raw_text')
+            if not os.path.exists('./raw_text_part1'):
+                os.makedirs('./raw_text_part1')
             csv_path = os.path.join(
-                './raw_text', f'{country_folder}_part1_text_1999.csv')
+                './raw_text_part1', f'{country_folder}_part1_text_1999.csv')
             df_part1_texts.to_csv(csv_path, index=False)
+
+            df_part2_texts = pd.DataFrame(part2_texts)
+            if not os.path.exists('./raw_text_part2'):
+                os.makedirs('./raw_text_part2')
+            csv_path = os.path.join(
+                './raw_text_part2', f'{country_folder}_part2_text_1999.csv')
+            df_part2_texts.to_csv(csv_path, index=False)
+
             break
 
         pdf_path = os.path.join(
@@ -66,7 +75,8 @@ for country_folder in os.listdir(pdf_folder):
         if year >= 1994 and year < 1998:
             row = pB.process9497(pdf_path, pdf_file, country_folder)
         else:  # targeted year should be stated, unless it is disaster
-            row, part1_text = pB.process98(pdf_path, pdf_file, country_folder)
+            row, part1_text, part2_text = pB.process98(
+                pdf_path, pdf_file, country_folder)
 
         # check if year was extracted correctlys
         if row[0] != year:
@@ -82,6 +92,9 @@ for country_folder in os.listdir(pdf_folder):
         rows.append(row)
         part1_text = part1_text.split('\n\n')
         part1_texts.append(part1_text)
+
+        part2_text = part2_text.split('\n\n')
+        part2_texts.append(part2_text)
         # print the time to process each file in seconds, celling to 2 decimal places
         times.append(time.time() - start_time)
         # print("--- %s seconds ---" % round(time.time() - start_time, 2))

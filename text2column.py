@@ -86,4 +86,4 @@ def text_to_column(text):
               countries, title_number, title_text, body_text, date, footnote]
     update_result = [remove_empty(_) for _ in result]
 
-    return update_result, part1_text
+    return update_result, part1_text, part2_text

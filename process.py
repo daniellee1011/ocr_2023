@@ -16,7 +16,7 @@ higher_dpi = int(util[1])
 def process9497(pdf_path, pdf_file, country_folder):
     # print('process9497 function called')
     pdf_text = oe.extract_text_from_pdf(pdf_path, default_dpi)
-    text_columns = tc.text_to_column(pdf_text)
+    text_columns, _, _ = tc.text_to_column(pdf_text)
     row = text_columns[:-1] + [pdf_file[:-4], country_folder] + \
         text_columns[-1:]  # add column K and L
     return row
@@ -28,7 +28,7 @@ def process98(pdf_path, pdf_file, country_folder):
     # print('process98 function called')
     global higher_dpi
     pdf_text_old = oe.extract_text_from_pdf(pdf_path, default_dpi)
-    text_columns, part1_text = tc.text_to_column(pdf_text_old)
+    text_columns, part1_text, part2_text = tc.text_to_column(pdf_text_old)
 
     # check if date was extracted correctly
     attempts = 0
@@ -43,4 +43,4 @@ def process98(pdf_path, pdf_file, country_folder):
 
     row = text_columns[:-1] + [pdf_file[:-4], country_folder] + \
         text_columns[-1:]  # add column K and L
-    return row, part1_text
+    return row, part1_text, part2_text
