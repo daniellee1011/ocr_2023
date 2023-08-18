@@ -1,5 +1,21 @@
 # Weekly Update Log
 
+## Week of 08/14 - 08/18
+
+### Completed tasks:
+
+- extract_body_title Update: Current code often includes body text when extracting body title details. This leads to inaccuracies in the body title details and negatively affects the accuracy of the extracted body text. I refined the function to properly extract body title details and return a more refined body text, ensuring better input for the extract_body function.
+- Adjusted the kernel size for image segmentation to 30 (height) and 35 (width) for the 1999 files.
+- Changed the format for creating CSV files to UTF-8 to prevent character corruption, e.g., turning certain characters into '?'.
+- Updated .gitignore.
+- Completed data extraction for the year 1999, covering countries from Georgia to Germany. The output files, ranging from Ecuador to Gambia, were generated using the latest codes.
+
+### Questions and Plans:
+
+- The extract_body_title function sometimes produces inappropriate body title details in edge cases. I need to refine it, especially for instances where the body title detail includes specific words like 'draft'. This word presents a duplicate pattern when extracting the list of countries. There's also a need to handle cases where the body title detail is absent.
+- I'll be working on implementing code to handle exception errors. Currently, if a broken file is processed, the entire code fails and further data processing is halted.
+
+
 ## Week of 08/07 - 08/11
 
 ### Completed tasks:
