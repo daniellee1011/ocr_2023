@@ -50,21 +50,21 @@ for country_folder in os.listdir(pdf_folder):
         if year == 2000:  # targeted year should be stated as bigger, unless it is disaster
             df = pd.DataFrame(rows, columns=column_list)
             csv_path = os.path.join(csv_folder, f"{country_folder}_1999.csv")
-            df.to_csv(csv_path, index=False)
+            df.to_csv(csv_path, index=False, encoding='utf-8')
 
             df_part1_texts = pd.DataFrame(part1_texts)
             if not os.path.exists('./raw_text_part1'):
                 os.makedirs('./raw_text_part1')
             csv_path = os.path.join(
                 './raw_text_part1', f'{country_folder}_part1_text_1999.csv')
-            df_part1_texts.to_csv(csv_path, index=False)
+            df_part1_texts.to_csv(csv_path, index=False, encoding='utf-8')
 
             df_part2_texts = pd.DataFrame(part2_texts)
             if not os.path.exists('./raw_text_part2'):
                 os.makedirs('./raw_text_part2')
             csv_path = os.path.join(
                 './raw_text_part2', f'{country_folder}_part2_text_1999.csv')
-            df_part2_texts.to_csv(csv_path, index=False)
+            df_part2_texts.to_csv(csv_path, index=False, encoding='utf-8')
 
             break
 
