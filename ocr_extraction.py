@@ -57,7 +57,7 @@ def extract_text_from_pdf(pdf_path, dpi_value):
         gray_image = cv2.cvtColor(opencv_image, cv2.COLOR_BGR2GRAY)
         _, binary = cv2.threshold(
             gray_image, 128, 255, cv2.THRESH_BINARY_INV)
-        kernel = np.ones((30, 30), np.uint8)
+        kernel = np.ones((30, 35), np.uint8)
         dilated = cv2.dilate(binary, kernel, iterations=2)
         contours, _ = cv2.findContours(
             dilated, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
