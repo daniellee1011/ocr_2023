@@ -1,5 +1,18 @@
 # Weekly Update Log
 
+## Week of 08/21 - 08/25
+
+### Completed tasks:
+
+- Reviewed mechanism and output of current extract_body function.
+- Designed a strategy or method has been formulated to distinguish between body text and footnotes.
+- Implementated the design has been translated into code with helper (is_footnote and is_not_body) functions created for the purpose of classification.
+- Updated whole extract_body, has been updated to utilize these helper functions.
+
+### Questions and Plans:
+
+- It is very tricky to distinguish foodnote from body text because footnote has so many patterns. Work on classyfing body text and footnote
+
 ## Week of 08/14 - 08/18
 
 ### Completed tasks:
