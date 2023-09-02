@@ -1,7 +1,6 @@
 import re
 from datetime import datetime
 
-
 date_pattern = r'\b\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}\b'
 # Extract year (A) and date (J)
 
@@ -61,9 +60,6 @@ def remove_empty(text):
 with open('.\helper_data\council_list.txt', 'r') as f:
     council_list = [line.strip() for line in f]
 council_tokens = [council.lower().split() for council in council_list]
-council_names = '|'.join(council_list)
-council_pattern = re.compile(fr"{council_names}", re.IGNORECASE)
-general_assembly_pattern = re.compile(r'General Assembly', re.IGNORECASE)
 # Extract council/committee name (B)
 
 
@@ -181,7 +177,6 @@ agenda_pattern = r'Agenda item (\d+)(?: \((\w+)\))?(?:\n\n)?'
 agendas_pattern = r'Agenda items (\d+ \(\w+\)? and \d+)'
 sp_agenda_pattern = r'Item (\d+ ?)(?: \((\w+)\) ?)?of the provisional agenda'
 draft_pattern = r':? *([\w ]*|[\n]*)? ?draft'
-# case_sensitive_pattern = re.compile(pattern)
 
 
 def extract_agenda_countries(text):
@@ -270,11 +265,8 @@ def split_text(text):
     return part1_text, part2_text
 
 
-# text_head_pattern = r'(The General Assembly,|The Commission on Human Rights,|The Human Rights Council |The Economic and Social Council,|1\.)'
-text_head_pattern = r'(The ' + '|The '.join(council_list) + \
-    r',|1\.|The General Assembly|Add the following|The General Assembl|General Assembly)'
-
 number_title_pattern = r'^\s*(\d{4})?/?\W*(.*)'
+draft_title_pattern = r'^Draft decision'
 
 
 def extract_body_title(text):
@@ -287,21 +279,25 @@ def extract_body_title(text):
     Returns:
         tuple: A tuple containing body title number (str), body title (str), and body text (str).
     """
+    if text == '':
+        return 'input', 'is', 'none'
     title_body_text = text.split('\n\n')
     title_text = title_body_text[1].replace('\n', ' ')
-    match = re.match(number_title_pattern, title_text)
-    idx = 2
-    if match:
-        title_number = match.group(1)
-        title = match.group(2)
-        if not title:
+    title = 'N/A'
+    title_number = 'N/A'
+    idx = 1
+    number_match = re.match(number_title_pattern, title_text)
+    if number_match:
+        match = re.match(draft_title_pattern, title_text)
+        if match:
             title = title_body_text[2].replace('\n', ' ')
             idx = 3
-    else:
-        title = title_text
-    title_body_text = title_body_text[idx:]
-    body = ''.join(title_body_text)
+        elif title_text[-1] != ',':
+            title_number = number_match.group(1)
+            title = number_match.group(2)
+            idx = 2
 
+    title_body_text = title_body_text[idx:]
     title_text = title_body_text[0]
     title_text = title_text.replace('\n', ' ')
 
@@ -309,44 +305,72 @@ def extract_body_title(text):
     if len(title.split('/')) == 3:
         title = 'N/A'
 
-    return title_number, title, body
+    return title_number, title, title_body_text
 
 
-footnote_pattern = r'^(\*|\d(?![./])|\d{1}/)\s.*'
+def is_footnote(s):
+    if s.strip().startswith('*'):
+        return True
+    if re.match(r'^\d+\s[^.]+$', s):
+        return True
+
+    return False
 
 
-def extract_body(text):
-    """
-    Extracts body text (I) and footnote (M) from the given text.
+def is_not_body(s):
+    # Generalized pattern to catch footnotes like E/CN.4/1999/L.3/Rev.1\npage 2
+    if re.search(r'(?i)page\s+\d+$', s):
+        return True
 
-    Args:
-        text (str): The text to extract the body text and footnote from.
+    if re.search(r'page \d+', s):
+        return True
 
-    Returns:
-        tuple: A tuple containing the body text (str) and footnote (str).
-    """
-    body_text = ''
-    footnote = []
-    footnote_idx = 1
-    paragraphs = text.split('\n')
+    # Check for patterns like * at the beginning, more generically
+    if s.strip().startswith('*'):
+        return True
 
-    for paragraph in paragraphs:
-        paragraph = paragraph.replace("\n", " ")
-        match = re.search(footnote_pattern, paragraph)
-        if match:
-            if match.group(0)[0] == '*':
-                footnote.append(match.group(0))
-            elif match.group(0)[0] == str(footnote_idx):
-                footnote.append(match.group(0))
-                footnote_idx += 1
-        else:
-            if len(paragraph) == 0:
-                continue
-            elif len(paragraph) >= 2:
-                if (paragraph[0] == str(footnote_idx) and paragraph[1] == '/') or paragraph[0] == "*":
-                    footnote_idx += 1
-                    footnote.append(paragraph)
-            if not re.search(r'(\d{2}-\d{5}|[A-Za-z]/\d{2}/[A-Za-z]\.\d|[A-Za-z ]+Please recycle|Page \d{1})', paragraph):
-                body_text += paragraph.strip() + ' '
-    footnote = ' '.join(footnote)
+    # Check for patterns like GE.99-12041 (E) or 99-02091 (E) 280199 /...
+    if re.search(r'GE?\.\d{2}-\d{5} \(E\)', s) or re.search(r'\d{2}-\d{5} \(E\) \d{6} \/...', s):
+        return True
+
+    # Pattern like S/1999/79 English Page 2
+    if re.search(r'S\/\d+\/\d+\s+English\s+Page \d+', s):
+        return True
+
+    # If the string is just whitespace or empty
+    if s.strip() == '':
+        return True
+
+    # Pattern like /..
+    if re.match(r'^\/\.\.$', s):
+        return True
+
+    # Pattern like 150199
+    if re.match(r'^\d{6}$', s):
+        return True
+
+    # Pattern like '99-00881 (E)' and 'V.99-83730'
+    # if re.match(r'^\d{2}-\d{5} \(E\).*', s):
+    if re.match(r'^(?:[A-Z]\.)?\d{2}-\d{5}( \(E\))?.*$', s):
+        return True
+
+    # Pattern like 'A/C.3/54/L.17/Rev.1' and 'A/54/L.6'
+    # if re.match(r'^[A-Z]/([A-Z]\.\d+/)?\d+/[A-Z]\.\d+(/Rev\.\d+)?$', s):
+    if re.match(r'^[A-Z]/([A-Z]{1,2}\.\d+/)?\d+/[A-Z]\.\d+(/Rev\.\d+)?$', s):
+        return True
+
+    # Pattern like '2 Resolution 34/180, annex.' and '4 A/54/224'
+    if re.match(r'^\d+\s.+$', s):
+        return True
+
+    return False
+
+
+def extract_body(text_list):
+    body_texts = [text for text in text_list if not is_not_body(text)]
+    footnote_texts = [text for text in text_list if is_footnote(text)]
+
+    body_text = '\n\n'.join(body_texts)
+    footnote = '\n\n'.join(footnote_texts)
+
     return body_text, footnote

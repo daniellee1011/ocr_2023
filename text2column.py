@@ -73,8 +73,7 @@ def text_to_column(text):
     title_number, title_text, body = extract_body_title(part2_text)
 
     # Get Body text (J) and footnote(K)
-    body_text, footnote2 = extract_body(body)
-    footnote = footnote1 + footnote2
+    body_text, footnote = extract_body(body)
 
     # check body title is not 'The' only
     if title_text == 'The':
