@@ -1,5 +1,42 @@
 # Weekly Update Log
 
+## Week of 08/28 - 09/01
+
+### Completed tasks:
+
+- Enhanced extract_body_title to manage corner cases, specifically titles with words such as 'draft' and situations where body titles are absent.
+- Refined error handling in extract_body_title for files with no input, like the 1999_1493912.pdf from Guinea.
+- Augmented the is_not_body method with conditions to better sift out non-body texts.
+- Successfully extracted data for 1999, spanning countries from Germany to Honduras.
+
+### Questions and Plans:
+
+- Delve into advanced methods for footnote extraction.
+- Set up the necessary environment on the Discovery server to facilitate continuous data extraction from input PDF files.
+- General case of footnotes are well filtered, but the cases like 1999_359762.pdf of Ghana are very hard to distinguish with body text. When they are recognized through OCR engines, those footnotes are captured like '3 United Nations, Treaty Series, vol. 189, No. 2545.' and '4 Ibid., vol. 606, No. 8791.' without distinct characters. Could I have a advice to distinguish those kinds of footnotes from genuine body text?
+
+### Timeline:
+
+The timeline below outlines the plan for the OCR project. Please note that while I aim to adhere to this schedule, manual verification of the output and potential code modifications may introduce delays. If the output showcases promising performance, some tasks might be expedited.
+
+- 09/04 - 09/08:
+ - Set up the Discovery server.
+ - Enhance the process for extracting footnotes.
+ - Extract data for 1999 - 2000.
+
+- 09/11 - 09/15:
+ - Refine and improve the extraction code based on prior outputs.
+ - Extract data for 2001 - 2005.
+
+- 09/18 - 09/22:
+ - Refine and improve the extraction code based on prior outputs.
+ - Extract data for 2006 - 2010.
+
+- 09/25 - 09/29:
+ - Refine and improve the extraction code based on prior outputs.
+ - Extract data for 2011 - 2021.
+
+
 ## Week of 08/21 - 08/25
 
 ### Completed tasks:
@@ -12,6 +49,7 @@
 ### Questions and Plans:
 
 - It is very tricky to distinguish foodnote from body text because footnote has so many patterns. Work on classyfing body text and footnote
+
 
 ## Week of 08/14 - 08/18
 
