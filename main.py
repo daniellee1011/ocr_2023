@@ -32,6 +32,7 @@ for country_folder in os.listdir(pdf_folder):
     rows = []
     part1_texts = []
     part2_texts = []
+    df = []
     # Loop through each file
     for pdf_file in os.listdir(os.path.join(pdf_folder, country_folder)):
         # calculate the time to process each file
@@ -44,12 +45,13 @@ for country_folder in os.listdir(pdf_folder):
         year = int(pdf_file.split('_')[0])
 
         # skip files before 1994 for now
-        if year < 1999:
+        if year < 2001:
             continue
 
-        if year == 2000:  # targeted year should be stated as bigger, unless it is disaster
+        if year >= 2002:  # targeted year should be stated as bigger, unless it is disaster
             df = pd.DataFrame(rows, columns=column_list)
-            csv_path = os.path.join(csv_folder, f"{country_folder}_1999.csv")
+            csv_path = os.path.join(
+                csv_folder, f"{country_folder}_{year-1}.csv")
             df.to_csv(csv_path, index=False, encoding='utf-8')
 
             df_part1_texts = pd.DataFrame(part1_texts)
@@ -102,7 +104,17 @@ for country_folder in os.listdir(pdf_folder):
     # print the average time to process each file in seconds, celling to 2 decimal places
     print("Total files: " + str(len(times)) +
           " takes: " + str(sum(times)) + " seconds")
-    print("--- Average %s seconds ---" % round(sum(times)/len(times), 2))
-    print("--- NaN rate for date is: ",
-          df['date'].isnull().sum()/len(rows), " ---")
+    try:
+        print("--- Average %s seconds ---" % round(sum(times)/len(times), 2))
+    except ZeroDivisionError:
+        print("No times to calculate an average. Probably no files at this year.")
+
+    try:
+        print("--- NaN rate for date is: ",
+              df['date'].isnull().sum()/len(df), " ---")
+    except NameError:
+        print("DataFrame df is not defined!")
+    except TypeError:
+        print("df is not a DataFrame or has other type-related issues!")
+
     print('---------------' + country_folder + '---------------')

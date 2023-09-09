@@ -28,6 +28,8 @@ def process98(pdf_path, pdf_file, country_folder):
     # print('process98 function called')
     global higher_dpi
     pdf_text_old = oe.extract_text_from_pdf(pdf_path, default_dpi)
+    if pdf_text_old == None:
+        return ['N/A'], 'N/A', 'N/A'
     text_columns, part1_text, part2_text = tc.text_to_column(pdf_text_old)
 
     # check if date was extracted correctly

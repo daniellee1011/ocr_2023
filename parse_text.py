@@ -292,7 +292,7 @@ def extract_body_title(text):
         if match:
             title = title_body_text[2].replace('\n', ' ')
             idx = 3
-        elif title_text[-1] != ',':
+        elif title_text and title_text[-1] != ',':
             title_number = number_match.group(1)
             title = number_match.group(2)
             idx = 2

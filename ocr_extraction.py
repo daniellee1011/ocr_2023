@@ -1,6 +1,7 @@
 import pytesseract
 from PIL import Image
 from pdf2image import convert_from_path
+from pdf2image.exceptions import PDFPageCountError
 import numpy as np
 import cv2
 import os
@@ -21,11 +22,14 @@ def extract_first_page_only(pdf_path, dpi_value):
         org_text (str): Extracted text from the PDF file.
     """
     # Convert the PDF to a list of PIL Image objects
-    image = convert_from_path(pdf_path, dpi=dpi_value,
-                              first_page=1, last_page=1)[0]
-    # image = Image.fromarray(image)
+    try:
+        image = convert_from_path(pdf_path, dpi=dpi_value,
+                                  first_page=1, last_page=1)[0]
+    except PDFPageCountError as e:
+        print(f"Error processing the PDF: {e}")
+        return None
 
-    raw_text = pytesseract.image_to_string(image, config='--oem 3')
+    raw_text = pytesseract.image_to_string(image)
 
     return raw_text
 
@@ -41,7 +45,12 @@ def extract_text_from_pdf(pdf_path, dpi_value):
         org_text (str): Extracted text from the PDF file.
     """
     # Convert the PDF to a list of PIL Image objects
-    images = convert_from_path(pdf_path, dpi=dpi_value)
+    # images = convert_from_path(pdf_path, dpi=dpi_value)
+    try:
+        images = convert_from_path(pdf_path, dpi=dpi_value)
+    except PDFPageCountError as e:
+        print(f"Error processing the PDF: {e}")
+        return None
 
     image_folder = './segment_image'
     if not os.path.exists('./segment_image'):
@@ -66,7 +75,7 @@ def extract_text_from_pdf(pdf_path, dpi_value):
         for contour in sorted_countours:
             x, y, w, h = cv2.boundingRect(contour)
             segment = gray_image[y:y+h, x:x+w]
-            text = pytesseract.image_to_string(segment, config='--psm 6')
+            text = pytesseract.image_to_string(segment)
             text_list.append(text)
 
             cv2.rectangle(gray_image, (x, y), (x + w, y + h), (0, 255, 0), 2)
