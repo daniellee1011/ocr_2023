@@ -16,11 +16,14 @@ column_list = ['year', 'Council', 'Committee', 'Session', 'Agenda item', 'Agenda
 # get input country name
 input_country = input(
     "Start to processing files from Country: ") or "Afghanistan"
+# defaulting to the last country alphabetically
+input_country_end = input("End processing at Country: ") or "Yemen"
+
 
 # Loop through each folder and PDF file and extract text
 for country_folder in os.listdir(pdf_folder):
     # check if the country starts with the input country name
-    if country_folder < input_country:
+    if country_folder < input_country or country_folder > input_country_end:
         continue
     # record the time to process each country
     times = []
