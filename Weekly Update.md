@@ -1,5 +1,20 @@
 # Weekly Update Log
 
+## Week of 09/04 - 09/08
+
+### Completed tasks:
+
+- Set up the environment on Discover server to run program. Average duration of extracting data from one pdf file is 463 sec, on the other hand it takes about 10 secs in my personal laptop.
+- Implement error handling to keep running, even though encoutering abnormal pdf files.
+- Extracted data from 1999 to 2001 (Myanmmar).
+
+### Questions and Plans:
+
+- Delve into advanced methods for footnote extraction.
+- Set up the necessary environment on the Google Cloud Platform to run the program.
+- Keep extracting from rest of pdf files of 2001.
+
+
 ## Week of 08/28 - 09/01
 
 ### Completed tasks:
