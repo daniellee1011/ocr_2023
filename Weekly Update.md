@@ -1,5 +1,22 @@
 # Weekly Update Log
 
+## Week of 09/11 - 09/15
+
+### Completed tasks:
+
+- Chose c2-standard-4 (4 vCPU, 2 core, 16 GB memory) for the GCP VM instance over E2, N2 due to its higher vCPUs. This is essential for running PyTesseract. (Monthly estimate: $123.44, Hourly: $0.17)
+- Set up the necessary environment on the Google Cloud Platform to run the program.
+- Extracted data from the years 2001 (Namibia) to 2003.
+
+### Questions and Plans:
+
+- Explore advanced methods for footnote extraction.
+- Continue setting up the environment on the Google Cloud Platform for the program.
+- Proceed with data extraction for 2004.
+- How much budget do I have available for running GCP? I don't want to waste it, but I need this information to decide on the best model for the program.
+- I was in the process of setting up environments on the 'ocr' VM instance when I noticed some settings in GCP had been changed by someone. Initially, I couldn't even access the 'ocr' instance, but after adjusting the firewalls for Identity-Aware Proxy, I regained access. For the next steps, I need to access the instance via NoMachine, which I could do until recently. Can you explain why this changed? If these modifications aren't essential, I'd like to revert to the previous environment. If they are necessary, please inform me, and I'll explore alternative ways to continue my work.
+
+
 ## Week of 09/04 - 09/08
 
 ### Completed tasks:
