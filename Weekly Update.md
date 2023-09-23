@@ -1,5 +1,21 @@
 # Weekly Update Log
 
+## Week of 09/18 - 09/22
+
+### Completed tasks:
+
+- ncreased the disk quota of the VM instance from 15GB to 40GB due to the requirements for input PDF files and output files. The impact on cost is as yet unknown, but I don't anticipate a significant increase as we're sticking with the c2-standard-4 configuration. I will provide updates on cost implications as I receive them.
+- Extracted data from the years 2004 to 2006.
+- Successfully set up the OCR project to run on Google Cloud Platform.
+- Preliminary performance metrics on GCP indicate an average processing time of 9.73 seconds per PDF file for Afghanistan 2007 data, compared to 10 seconds on my local laptop. More samples are needed to make a definitive assessment.
+
+
+### Questions and Plans:
+
+- Explore advanced methods for extracting footnotes.
+- Proceed with data extraction for the year 2007.
+
+
 ## Week of 09/11 - 09/15
 
 ### Completed tasks:
