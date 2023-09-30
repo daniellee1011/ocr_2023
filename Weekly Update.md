@@ -1,5 +1,22 @@
 # Weekly Update Log
 
+
+## Week of 09/25 - 09/29
+
+### Completed tasks:
+
+- Extracted data from the years 2007 to 2013 (Oman).
+- Inspected the extracted data for any anomalies.
+- Added names of committees that had not previously appeared into committee_list.txt.
+
+
+### Questions and Plans:
+
+- Explore advanced methods for extracting footnotes.
+- Update the helper files to include recent modifications.
+- Proceed with data extraction for the year 2013 (Panama).
+
+
 ## Week of 09/18 - 09/22
 
 ### Completed tasks:
