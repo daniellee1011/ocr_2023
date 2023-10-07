@@ -1,6 +1,20 @@
 # Weekly Update Log
 
 
+## Week of 10/02 - 10/06
+
+### Completed tasks:
+
+- Extracted data from 2013 (Panama) through 2020.
+- Inspected the output files by comparing them to the input PDFs.
+
+### Questions and Plans:
+
+- Explore advanced methods for extracting footnotes.
+- Proceed with data extraction for the year 2021.
+- Complete data extraction from non-scanned PDFs and inspect the overall output from these non-scanned files.
+
+
 ## Week of 09/25 - 09/29
 
 ### Completed tasks:
