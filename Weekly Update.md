@@ -1,6 +1,20 @@
 # Weekly Update Log
 
 
+## Week of 10/09 - 10/13
+
+### Completed tasks:
+
+- Completed extracting data from scanned PDF files.
+- Examined the output of scanned PDF files.
+
+### Questions and Plans:
+
+- Extract data from unscanned from pdf files.
+- Optimize data extraction workflow.
+- Update methods foro unscanned pdf files.
+
+
 ## Week of 10/02 - 10/06
 
 ### Completed tasks:
