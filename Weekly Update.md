@@ -1,6 +1,20 @@
 # Weekly Update Log
 
 
+## Week of 10/16 - 10/20
+
+### Completed tasks:
+
+- Began extracting data from unscanned PDF files, specifically focusing on files from the year 1992 (Afghanistan - Bulgaria) this week. PDF files from 1992 are closely related to other years of unscanned PDF files, and the quality of extracted data is satisfactory.
+- Reviewed the output of unscanned PDF files.
+- Inspected the condition and format of the unscanned files.
+
+### Questions and Plans:
+
+- Plan to extract data from scanned PDF files.
+- A different method might be needed for files older than 1992 due to their condition and potential format differences.
+
+
 ## Week of 10/09 - 10/13
 
 ### Completed tasks:
