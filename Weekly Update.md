@@ -13,6 +13,7 @@
 
 - Plan to extract data from scanned PDF files.
 - A different method might be needed for files older than 1992 due to their condition and potential format differences.
+- The expected completion date of the project is the end of the semester. Most unscanned version PDF files have the same format and are in almost similar condition. However, as I mentioned, older scanned files have different conditions, and the distribution of data is jagged, so it's a bit hard to predict exactly.
 
 
 ## Week of 10/09 - 10/13
