@@ -1,6 +1,18 @@
 # Weekly Update Log
 
 
+## Week of 10/23 - 10/27
+
+### Completed tasks:
+
+- Extracted all files from 1992 and 1993. The output for the 1993 files is fairly satisfactory, as the quality of the input files is quite good. However, many files from 1992 have extremely poor quality, and some are even hard for me to read.
+
+### Questions and Plans:
+
+- Conduct research on alternative engines that specialize in recognizing poor-quality documents.
+- Explore other tasks or methods that can handle reading poor-quality documents, to serve as benchmarks.
+
+
 ## Week of 10/16 - 10/20
 
 ### Completed tasks:
