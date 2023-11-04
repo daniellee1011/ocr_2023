@@ -1,6 +1,20 @@
 # Weekly Update Log
 
 
+## Week of 10/30 - 11/03
+
+### Completed tasks:
+
+- Extracted data from 1992 files at varying DPI settings. Expected improvements in output quality with higher DPI values were not observed. The results indicate that adjusting DPI alone does not necessarily enhance quality.
+- Evaluated performance improvements for scanned input files. It became evident that the quality of the output is predominantly determined by the quality of the input files and the effectiveness of the OCR engine. It was also noted that open-source OCR engines have their limitations.
+
+### Questions and Plans:
+
+- Initiate research into alternative OCR engines and test their data extraction capabilities on our datasets.
+- Investigate additional strategies for improving OCR performance, possibly through image pre-processing techniques.
+- Explore alternative methods or technologies capable of processing poor-quality documents, which may include machine learning approaches or advanced document enhancement software. These will be used to establish benchmarks for expected performance.
+
+
 ## Week of 10/23 - 10/27
 
 ### Completed tasks:
@@ -25,7 +39,6 @@
 
 - Plan to extract data from scanned PDF files.
 - A different method might be needed for files older than 1992 due to their condition and potential format differences.
-- The expected completion date of the project is the end of the semester. Most unscanned version PDF files have the same format and are in almost similar condition. However, as I mentioned, older scanned files have different conditions, and the distribution of data is jagged, so it's a bit hard to predict exactly.
 
 
 ## Week of 10/09 - 10/13
