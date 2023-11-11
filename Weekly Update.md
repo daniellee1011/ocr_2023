@@ -1,6 +1,19 @@
 # Weekly Update Log
 
 
+## Week of 11/06 - 11/10
+
+### Completed tasks:
+
+- Implemented a new OCR function integrating the EasyOCR engine for comparison with the existing pytesseract solution. Found that EasyOCR's accuracy and text parsing capabilities were less effective than pytesseract's. EasyOCR struggled to parse data correctly, which suggests a lower tolerance for the quality of scanned inputs.
+- Developed and integrated a spellchecker function using the spellchecker library to address issues with incorrectly extracted words, a problem exacerbated by the poor quality of our scanned input files.
+
+### Questions and Plans:
+
+- Plan to test the newly implemented spellchecker function to assess its impact on the overall performance of our OCR program. The focus will be on evaluating whether this addition improves text extraction accuracy from low-quality scans.
+- Investigate potential optimizations for EasyOCR or alternative OCR solutions that might offer improved performance with our specific data formats.
+
+
 ## Week of 10/30 - 11/03
 
 ### Completed tasks:
