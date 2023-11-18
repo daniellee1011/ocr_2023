@@ -280,7 +280,7 @@ def extract_body_title(text):
         tuple: A tuple containing body title number (str), body title (str), and body text (str).
     """
     if text == '':
-        return 'N/A', 'N/A', 'N/A'
+        return 'input', 'is', 'none'
     title_body_text = text.split('\n\n')
     title_text = title_body_text[1].replace('\n', ' ')
     title = 'N/A'
