@@ -1,6 +1,20 @@
 # Weekly Update Log
 
 
+## Week of 11/13 - 11/17
+
+### Completed tasks:
+
+- Utilized the SpellChecker library to refine OCR output. However, the modifications led to suboptimal results, with performance metrics declining compared to the unaltered OCR output.
+- Successfully extracted data through ChatGPT-4, which yielded high-quality results. Initial research indicates that ChatGPT-4 employs a proprietary engine for text recognition that may leverage advanced image recognition techniques rather than conventional OCR methods.
+- Evaluated commercial tools for potential improvements in OCR quality. Options like ABBYY FineReader, Adobe Acrobat Pro DC, and Google Cloud Vision API were considered but were not viable due to their commercial nature.
+
+### Questions and Plans:
+
+- Investigate alternative methods to enhance the quality of OCR output, with a focus on open-source solutions.
+- Given the extensive trials with DPI adjustments, alternative OCR engines, and the integration of the SpellChecker library, we've encountered inherent limitations with the open-source tools at our disposal. These constraints have led to less-than-ideal OCR accuracy for our project needs. With the current project deadline in mind, should we proceed to finalize the project with the existing implementation?
+
+
 ## Week of 11/06 - 11/10
 
 ### Completed tasks:
