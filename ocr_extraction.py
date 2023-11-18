@@ -5,10 +5,14 @@ from pdf2image.exceptions import PDFPageCountError
 import numpy as np
 import cv2
 import os
+from subprocess import check_output, CalledProcessError, STDOUT
+from spellchecker import SpellChecker
+
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 # Set the maximum image size to 1 billion pixels
 Image.MAX_IMAGE_PIXELS = 1000000000
+custom_oem_psm_config = r'--oem 3 --psm 6'
 
 
 def extract_first_page_only(pdf_path, dpi_value):
@@ -75,7 +79,8 @@ def extract_text_from_pdf(pdf_path, dpi_value):
         for contour in sorted_countours:
             x, y, w, h = cv2.boundingRect(contour)
             segment = gray_image[y:y+h, x:x+w]
-            text = pytesseract.image_to_string(segment)
+            text = pytesseract.image_to_string(
+                segment, config=custom_oem_psm_config)
             text_list.append(text)
 
             cv2.rectangle(gray_image, (x, y), (x + w, y + h), (0, 255, 0), 2)
@@ -85,10 +90,28 @@ def extract_text_from_pdf(pdf_path, dpi_value):
         image_name = base_name + '_' + str(cnt) + '.png'
         full_path = os.path.join(image_folder, image_name)
         cv2.imwrite(full_path, resized_image)
-        cv2.destroyAllWindows()
+        # cv2.destroyAllWindows()
         cnt += 1
 
     # Combine text from all pages into a single string
     org_text = '\n'.join(text_list)
 
     return org_text
+
+
+def correct_spelling(text):
+    spell = SpellChecker()
+    # Find all words in the text
+    words = text.split()
+    # Find those words that may be misspelled
+    misspelled = spell.unknown(words)
+
+    for word in misspelled:
+        # Get the one `most likely` answer
+        correct_word = spell.correction(word)
+        # If correct_word is None, which is unexpected, skip replacement
+        if correct_word is not None:
+            # Replace the misspelled word in the original text with the correct word
+            text = text.replace(word, correct_word)
+
+    return text
