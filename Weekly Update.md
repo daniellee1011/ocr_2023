@@ -1,6 +1,20 @@
 # Weekly Update Log
 
 
+## Week of 11/20 - 11/24
+
+### Completed tasks:
+
+- Conducted thorough research on various methods that could enhance performance.
+- Implemented codes with Google Cloud Vision API. The quality of the API is very high; however, the extracted text is inconsistent. It creates blocks and paragraphs randomly due to the varying formats of scanned PDF files. Even though the text is extracted, classifying the data as required by the project is challenging. Additionally, it has become clearer that open-source tools have limitations in capturing text from poor-quality scanned PDF files.
+
+
+### Questions and Plans:
+
+- Plan to continue exploring methods and tools that can yield outputs of desirable quality.
+- Await feedback or answers to the queries raised in the last report.
+
+
 ## Week of 11/13 - 11/17
 
 ### Completed tasks:
