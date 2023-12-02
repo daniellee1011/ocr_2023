@@ -1,0 +1,96 @@
+Block confidence: 0.9168601036071777
+	Paragraph confidence: 0.9168601036071777
+		Word text: A (confidence: 0.977778434753418)
+		Word text: / (confidence: 0.9674230813980103)
+		Word text: 46 (confidence: 0.9763562679290771)
+		Word text: / (confidence: 0.9431443810462952)
+		Word text: L.64 (confidence: 0.9206616282463074)
+		Word text: English (confidence: 0.8417040705680847)
+		Word text: Page (confidence: 0.9647262692451477)
+		Word text: 2 (confidence: 0.9795234203338623)
+
+
+Block confidence: 0.9629673361778259
+	Paragraph confidence: 0.9728280305862427
+		Word text: 7 (confidence: 0.962742269039154)
+		Word text: February (confidence: 0.9908674955368042)
+		Word text: 1992 (confidence: 0.8889943361282349)
+		Word text: that (confidence: 0.9926047325134277)
+		Word text: Turkmenistan (confidence: 0.9705197811126709)
+		Word text: should (confidence: 0.9652428030967712)
+		Word text: be (confidence: 0.9920326471328735)
+		Word text: admitted (confidence: 0.9866219758987427)
+		Word text: to (confidence: 0.9916255474090576)
+		Word text: membership (confidence: 0.9913040995597839)
+		Word text: in (confidence: 0.9929563999176025)
+		Word text: the (confidence: 0.9937674403190613)
+		Word text: United (confidence: 0.9855924844741821)
+		Word text: Nations (confidence: 0.9887080192565918)
+		Word text: , (confidence: 0.8571739792823792)
+		Word text: 1 (confidence: 0.8013049960136414)
+		Word text: / (confidence: 0.7932765483856201)
+
+	Paragraph confidence: 0.9587841033935547
+		Word text: Having (confidence: 0.8704522848129272)
+		Word text: considered (confidence: 0.9089628458023071)
+		Word text: the (confidence: 0.9949920177459717)
+		Word text: application (confidence: 0.9879561066627502)
+		Word text: for (confidence: 0.9928953051567078)
+		Word text: membership (confidence: 0.98981773853302)
+		Word text: of (confidence: 0.9927301406860352)
+		Word text: Turkmenistan (confidence: 0.9862880110740662)
+		Word text: , (confidence: 0.9519944190979004)
+		Word text: 2 (confidence: 0.9475734233856201)
+		Word text: / (confidence: 0.7648635506629944)
+
+	Paragraph confidence: 0.9538772106170654
+		Word text: Decides (confidence: 0.8625795841217041)
+		Word text: to (confidence: 0.992026686668396)
+		Word text: admit (confidence: 0.8329971432685852)
+		Word text: Turkmenistan (confidence: 0.9671770334243774)
+		Word text: to (confidence: 0.9907674789428711)
+		Word text: membership (confidence: 0.9799987077713013)
+		Word text: in (confidence: 0.9925321340560913)
+		Word text: the (confidence: 0.9927169680595398)
+		Word text: United (confidence: 0.991981565952301)
+		Word text: Nations (confidence: 0.9866155385971069)
+		Word text: . (confidence: 0.9748441576957703)
+
+
+Block confidence: 0.7337866425514221
+	Paragraph confidence: 0.7337866425514221
+		Word text: 2 (confidence: 0.9150534272193909)
+		Word text: / (confidence: 0.5525198578834534)
+
+
+Block confidence: 0.9752430319786072
+	Paragraph confidence: 0.9752430319786072
+		Word text: A (confidence: 0.9833367466926575)
+		Word text: / (confidence: 0.9729774594306946)
+		Word text: 46 (confidence: 0.9710164666175842)
+		Word text: / (confidence: 0.9813197255134583)
+		Word text: 871 (confidence: 0.9860501885414124)
+		Word text: . (confidence: 0.9393696784973145)
+
+
+Block confidence: 0.9524897933006287
+	Paragraph confidence: 0.9524897933006287
+		Word text: A (confidence: 0.9552307724952698)
+		Word text: / (confidence: 0.9486874341964722)
+		Word text: 46 (confidence: 0.9762109518051147)
+		Word text: / (confidence: 0.9710073471069336)
+		Word text: 856 (confidence: 0.9414587020874023)
+		Word text: - (confidence: 0.9210731387138367)
+		Word text: S (confidence: 0.8345884084701538)
+		Word text: / (confidence: 0.9869909882545471)
+		Word text: 23489 (confidence: 0.9925057291984558)
+		Word text: and (confidence: 0.9939354062080383)
+		Word text: Corr.1 (confidence: 0.9332895278930664)
+		Word text: . (confidence: 0.8262860774993896)
+
+
+Block confidence: 0.2888767123222351
+	Paragraph confidence: 0.2888767123222351
+		Word text: GREE (confidence: 0.2888767123222351)
+
+

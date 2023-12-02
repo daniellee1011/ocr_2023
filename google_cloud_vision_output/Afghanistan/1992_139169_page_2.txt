@@ -1,0 +1,112 @@
+Block confidence: 0.9585243463516235
+	Paragraph confidence: 0.9292638897895813
+		Word text: A (confidence: 0.9320293664932251)
+		Word text: / (confidence: 0.8892288208007812)
+		Word text: 46 (confidence: 0.8862471580505371)
+		Word text: / (confidence: 0.9491297006607056)
+		Word text: L.61 (confidence: 0.9551233053207397)
+
+	Paragraph confidence: 0.9804696440696716
+		Word text: English (confidence: 0.9823099970817566)
+		Word text: Page (confidence: 0.9749594330787659)
+		Word text: 2 (confidence: 0.9896281957626343)
+
+
+Block confidence: 0.9798032641410828
+	Paragraph confidence: 0.9798032641410828
+		Word text: 29 (confidence: 0.9707008600234985)
+		Word text: January (confidence: 0.9873930215835571)
+		Word text: 1992 (confidence: 0.9884744882583618)
+		Word text: that (confidence: 0.9957392811775208)
+		Word text: the (confidence: 0.9946884512901306)
+		Word text: Republic (confidence: 0.986272394657135)
+		Word text: of (confidence: 0.9923930764198303)
+		Word text: Uzbekistan (confidence: 0.9919532537460327)
+		Word text: should (confidence: 0.9583353996276855)
+		Word text: be (confidence: 0.9253208041191101)
+		Word text: admitted (confidence: 0.9912339448928833)
+		Word text: to (confidence: 0.9936685562133789)
+		Word text: membership (confidence: 0.982422411441803)
+		Word text: in (confidence: 0.989169716835022)
+		Word text: the (confidence: 0.9948205947875977)
+		Word text: United (confidence: 0.9776702523231506)
+		Word text: Nations (confidence: 0.9882718324661255)
+		Word text: , (confidence: 0.9433042407035828)
+		Word text: 1 (confidence: 0.8709740042686462)
+		Word text: / (confidence: 0.7308270335197449)
+
+
+Block confidence: 0.9714139103889465
+	Paragraph confidence: 0.9630433917045593
+		Word text: Having (confidence: 0.9671921133995056)
+		Word text: considered (confidence: 0.9904505610466003)
+		Word text: the (confidence: 0.9882175922393799)
+		Word text: application (confidence: 0.9887242317199707)
+		Word text: for (confidence: 0.9906202554702759)
+		Word text: membership (confidence: 0.9896187782287598)
+		Word text: of (confidence: 0.9928373694419861)
+		Word text: the (confidence: 0.993445098400116)
+		Word text: Republic (confidence: 0.9323238730430603)
+		Word text: of (confidence: 0.9900628328323364)
+		Word text: Uzbekistan (confidence: 0.9469414353370667)
+		Word text: . (confidence: 0.6093333959579468)
+		Word text: 2 (confidence: 0.8686463236808777)
+		Word text: / (confidence: 0.6076322793960571)
+
+	Paragraph confidence: 0.9813191294670105
+		Word text: Decides (confidence: 0.9889512658119202)
+		Word text: to (confidence: 0.9921557307243347)
+		Word text: admit (confidence: 0.9879257082939148)
+		Word text: the (confidence: 0.9934516549110413)
+		Word text: Republic (confidence: 0.968978226184845)
+		Word text: of (confidence: 0.9903438091278076)
+		Word text: Uzbekistan (confidence: 0.9542162418365479)
+		Word text: to (confidence: 0.993645429611206)
+		Word text: membership (confidence: 0.9882307052612305)
+		Word text: in (confidence: 0.9856127500534058)
+		Word text: the (confidence: 0.9930376410484314)
+		Word text: United (confidence: 0.9929300546646118)
+
+
+Block confidence: 0.9583355188369751
+	Paragraph confidence: 0.9583355188369751
+		Word text: Nations (confidence: 0.9710372686386108)
+		Word text: . (confidence: 0.8694234490394592)
+
+
+Block confidence: 0.8222498893737793
+	Paragraph confidence: 0.8222498893737793
+		Word text: 2 (confidence: 0.9133306741714478)
+		Word text: / (confidence: 0.7311691045761108)
+
+
+Block confidence: 0.9379070997238159
+	Paragraph confidence: 0.9379070997238159
+		Word text: A (confidence: 0.928605854511261)
+		Word text: / (confidence: 0.9059420824050903)
+		Word text: 46 (confidence: 0.9526603817939758)
+		Word text: / (confidence: 0.96712327003479)
+		Word text: 861 (confidence: 0.9483643174171448)
+		Word text: . (confidence: 0.8890788555145264)
+
+
+Block confidence: 0.9161853194236755
+	Paragraph confidence: 0.9161853194236755
+		Word text: A (confidence: 0.9643416404724121)
+		Word text: / (confidence: 0.9321796894073486)
+		Word text: 46 (confidence: 0.9369921684265137)
+		Word text: / (confidence: 0.9550704956054688)
+		Word text: 843 (confidence: 0.9747849702835083)
+		Word text: - (confidence: 0.8881921172142029)
+		Word text: S (confidence: 0.8591344356536865)
+		Word text: / (confidence: 0.9441059827804565)
+		Word text: 23451 (confidence: 0.8854225277900696)
+		Word text: . (confidence: 0.8066742420196533)
+
+
+Block confidence: 0.3033244013786316
+	Paragraph confidence: 0.3033244013786316
+		Word text: 71 (confidence: 0.31947600841522217)
+		Word text: 1 (confidence: 0.2710212171077728)
+
+

@@ -1,0 +1,397 @@
+Block confidence: 0.9385941028594971
+	Paragraph confidence: 0.9385941028594971
+		Word text: UNITED (confidence: 0.9379750490188599)
+		Word text: NATIONS (confidence: 0.9391247630119324)
+
+
+Block confidence: 0.9828235507011414
+	Paragraph confidence: 0.9828235507011414
+		Word text: General (confidence: 0.9814551472663879)
+		Word text: Assembly (confidence: 0.9840209484100342)
+
+
+Block confidence: 0.9891284108161926
+	Paragraph confidence: 0.9891284108161926
+		Word text: Forty (confidence: 0.9888039231300354)
+		Word text: - (confidence: 0.8983067870140076)
+		Word text: seventh (confidence: 0.9929402470588684)
+		Word text: session (confidence: 0.9937456250190735)
+		Word text: Agenda (confidence: 0.9909560680389404)
+		Word text: item (confidence: 0.9926226139068604)
+		Word text: 146 (confidence: 0.9919610023498535)
+
+
+Block confidence: 0.9631574153900146
+	Paragraph confidence: 0.9631574153900146
+		Word text: EMERGENCY (confidence: 0.9856391549110413)
+		Word text: ASSISTANCE (confidence: 0.9490118026733398)
+		Word text: TO (confidence: 0.9894424676895142)
+		Word text: PAKISTAN (confidence: 0.9489762187004089)
+
+
+Block confidence: 0.9704078435897827
+	Paragraph confidence: 0.9704078435897827
+		Word text: The (confidence: 0.9768697619438171)
+		Word text: General (confidence: 0.9938069581985474)
+		Word text: Assembly (confidence: 0.9822696447372437)
+		Word text: , (confidence: 0.6923340559005737)
+
+
+Block confidence: 0.9467429518699646
+	Paragraph confidence: 0.9467429518699646
+		Word text: Distr (confidence: 0.9871963858604431)
+		Word text: . (confidence: 0.9392478466033936)
+		Word text: LIMITED (confidence: 0.9189183712005615)
+
+
+Block confidence: 0.9601150155067444
+	Paragraph confidence: 0.9368322491645813
+		Word text: A (confidence: 0.9460450410842896)
+		Word text: / (confidence: 0.9067532420158386)
+		Word text: 47 (confidence: 0.9561241865158081)
+		Word text: / (confidence: 0.9506195187568665)
+		Word text: L.2 (confidence: 0.9263306856155396)
+
+	Paragraph confidence: 0.9756367802619934
+		Word text: 6 (confidence: 0.9727070927619934)
+		Word text: October (confidence: 0.9698606729507446)
+		Word text: 1992 (confidence: 0.9864774346351624)
+
+
+Block confidence: 0.9680345058441162
+	Paragraph confidence: 0.9680345058441162
+		Word text: Afghanistan (confidence: 0.9641773104667664)
+		Word text: , (confidence: 0.8227720260620117)
+		Word text: Algeria (confidence: 0.9835624694824219)
+		Word text: , (confidence: 0.839331328868866)
+		Word text: Argentina (confidence: 0.9913707375526428)
+		Word text: , (confidence: 0.9510356187820435)
+		Word text: Bangladesh (confidence: 0.9911333918571472)
+		Word text: , (confidence: 0.8411977887153625)
+		Word text: Benin (confidence: 0.9908999800682068)
+		Word text: , (confidence: 0.9339887499809265)
+		Word text: Bolivia (confidence: 0.9708552956581116)
+		Word text: , (confidence: 0.835831344127655)
+		Word text: Brazil (confidence: 0.9824308156967163)
+		Word text: , (confidence: 0.7556703090667725)
+		Word text: Cape (confidence: 0.9864392280578613)
+		Word text: Verde (confidence: 0.9918386340141296)
+		Word text: , (confidence: 0.9178850054740906)
+		Word text: China (confidence: 0.9934477806091309)
+		Word text: , (confidence: 0.9052639007568359)
+		Word text: Colombia (confidence: 0.9825621843338013)
+		Word text: , (confidence: 0.8313848972320557)
+		Word text: Comoros (confidence: 0.8825556635856628)
+		Word text: , (confidence: 0.5603486895561218)
+		Word text: Costa (confidence: 0.9893336892127991)
+		Word text: Rica (confidence: 0.9871969819068909)
+		Word text: , (confidence: 0.4622744023799896)
+		Word text: Diibouti (confidence: 0.9732606410980225)
+		Word text: , (confidence: 0.46251481771469116)
+		Word text: Egypt (confidence: 0.959604024887085)
+		Word text: , (confidence: 0.9764218330383301)
+		Word text: Equatorial (confidence: 0.9782702326774597)
+		Word text: Guinea (confidence: 0.9829409718513489)
+		Word text: , (confidence: 0.9195629358291626)
+		Word text: Gabon (confidence: 0.99061518907547)
+		Word text: , (confidence: 0.968345046043396)
+		Word text: Grenada (confidence: 0.9863779544830322)
+		Word text: , (confidence: 0.8931677937507629)
+		Word text: Honduras (confidence: 0.9232550263404846)
+		Word text: , (confidence: 0.694451093673706)
+		Word text: Indonesia (confidence: 0.9935493469238281)
+		Word text: , (confidence: 0.8555994033813477)
+		Word text: Iran (confidence: 0.9783784747123718)
+		Word text: ( (confidence: 0.9750301837921143)
+		Word text: Islamic (confidence: 0.9857289791107178)
+		Word text: Republic (confidence: 0.9942175149917603)
+		Word text: of (confidence: 0.9794008731842041)
+		Word text: ) (confidence: 0.9793440103530884)
+		Word text: , (confidence: 0.7807337045669556)
+		Word text: Lebanon (confidence: 0.994029700756073)
+		Word text: , (confidence: 0.8426329493522644)
+		Word text: Malaysia (confidence: 0.9906761646270752)
+		Word text: , (confidence: 0.7083775401115417)
+		Word text: Maldives (confidence: 0.9884395599365234)
+		Word text: , (confidence: 0.6704161167144775)
+		Word text: Marshall (confidence: 0.9909253716468811)
+		Word text: Islands (confidence: 0.9816867709159851)
+		Word text: , (confidence: 0.3988843560218811)
+		Word text: Morocco (confidence: 0.9880049228668213)
+		Word text: , (confidence: 0.8606477379798889)
+		Word text: Myanmar (confidence: 0.9906116127967834)
+		Word text: , (confidence: 0.719846785068512)
+		Word text: Nepal (confidence: 0.9883790016174316)
+		Word text: , (confidence: 0.8409218788146973)
+		Word text: New (confidence: 0.9872220754623413)
+		Word text: Zealand (confidence: 0.9888526201248169)
+		Word text: , (confidence: 0.770609974861145)
+		Word text: Oman (confidence: 0.9742130041122437)
+		Word text: , (confidence: 0.9681566953659058)
+		Word text: Pakistan (confidence: 0.9919891357421875)
+		Word text: , (confidence: 0.9712627530097961)
+		Word text: Paraguay (confidence: 0.9577301740646362)
+		Word text: , (confidence: 0.902556836605072)
+		Word text: Peru (confidence: 0.9891771078109741)
+		Word text: , (confidence: 0.7433287501335144)
+		Word text: Philippines (confidence: 0.9911252856254578)
+		Word text: , (confidence: 0.9536498785018921)
+		Word text: Saudi (confidence: 0.9893093705177307)
+		Word text: Arabia (confidence: 0.9916281700134277)
+		Word text: Senegal (confidence: 0.9930758476257324)
+		Word text: , (confidence: 0.9343050718307495)
+		Word text: Spain (confidence: 0.9912402629852295)
+		Word text: , (confidence: 0.8220775723457336)
+		Word text: Sri (confidence: 0.9917674660682678)
+		Word text: Lanka (confidence: 0.9851345419883728)
+		Word text: , (confidence: 0.8321018815040588)
+		Word text: Suriname (confidence: 0.9875174164772034)
+		Word text: , (confidence: 0.7580677270889282)
+		Word text: Sweden (confidence: 0.9843863844871521)
+		Word text: , (confidence: 0.7707160115242004)
+		Word text: Togo (confidence: 0.9735018014907837)
+		Word text: , (confidence: 0.9828762412071228)
+		Word text: Trinidad (confidence: 0.991114616394043)
+		Word text: and (confidence: 0.9937902092933655)
+		Word text: Tobago (confidence: 0.9926366806030273)
+		Word text: Tunisia (confidence: 0.9848906397819519)
+		Word text: Turkey (confidence: 0.9762790203094482)
+		Word text: , (confidence: 0.9187641143798828)
+		Word text: United (confidence: 0.9920926094055176)
+		Word text: Kingdom (confidence: 0.9918811321258545)
+		Word text: of (confidence: 0.9917503595352173)
+		Word text: Great (confidence: 0.9933323264122009)
+		Word text: Britain (confidence: 0.9922992587089539)
+		Word text: and (confidence: 0.9940186142921448)
+		Word text: Northern (confidence: 0.9948486685752869)
+		Word text: Ireland (confidence: 0.9927553534507751)
+		Word text: and (confidence: 0.9916309118270874)
+		Word text: Uruguay (confidence: 0.9352917075157166)
+		Word text: : (confidence: 0.9545418620109558)
+		Word text: draft (confidence: 0.9889981746673584)
+		Word text: resolution (confidence: 0.987276554107666)
+
+
+Block confidence: 0.922430694103241
+	Paragraph confidence: 0.922430694103241
+		Word text: ORIGINAL (confidence: 0.9253765344619751)
+		Word text: : (confidence: 0.9582830667495728)
+		Word text: ENGLISH (confidence: 0.9139422178268433)
+
+
+Block confidence: 0.9914401173591614
+	Paragraph confidence: 0.9914401173591614
+		Word text: Deeply (confidence: 0.9827243089675903)
+		Word text: concerned (confidence: 0.9947007894515991)
+		Word text: about (confidence: 0.9910356402397156)
+		Word text: the (confidence: 0.9941903352737427)
+		Word text: extensive (confidence: 0.9956104159355164)
+		Word text: damage (confidence: 0.9928452372550964)
+		Word text: and (confidence: 0.9927242994308472)
+		Word text: devastation (confidence: 0.9911275506019592)
+		Word text: in (confidence: 0.9909777641296387)
+		Word text: Pakistan (confidence: 0.9889253377914429)
+		Word text: caused (confidence: 0.9914228320121765)
+		Word text: by (confidence: 0.9894176721572876)
+		Word text: the (confidence: 0.9949343800544739)
+		Word text: unprecedented (confidence: 0.993748664855957)
+		Word text: floods (confidence: 0.9921642541885376)
+		Word text: in (confidence: 0.9943649768829346)
+		Word text: that (confidence: 0.9918513298034668)
+		Word text: country (confidence: 0.9859297275543213)
+		Word text: , (confidence: 0.9732142090797424)
+
+
+Block confidence: 0.991716742515564
+	Paragraph confidence: 0.991716742515564
+		Word text: Noting (confidence: 0.9851248860359192)
+		Word text: with (confidence: 0.9852511286735535)
+		Word text: concern (confidence: 0.9950989484786987)
+		Word text: the (confidence: 0.9942638874053955)
+		Word text: destruction (confidence: 0.9924739599227905)
+		Word text: of (confidence: 0.991421103477478)
+		Word text: thousands (confidence: 0.9885207414627075)
+		Word text: of (confidence: 0.991803765296936)
+		Word text: dwellings (confidence: 0.9927109479904175)
+		Word text: and (confidence: 0.9924084544181824)
+		Word text: the (confidence: 0.9943482279777527)
+		Word text: damage (confidence: 0.9923238158226013)
+		Word text: to (confidence: 0.993385374546051)
+		Word text: major (confidence: 0.9922077059745789)
+		Word text: sectors (confidence: 0.9943602085113525)
+		Word text: of (confidence: 0.9937762022018433)
+		Word text: the (confidence: 0.9938880205154419)
+		Word text: national (confidence: 0.9932723641395569)
+		Word text: infrastructure (confidence: 0.9916741251945496)
+		Word text: , (confidence: 0.9773281812667847)
+
+
+Block confidence: 0.9886503219604492
+	Paragraph confidence: 0.9886503219604492
+		Word text: Acknowledging (confidence: 0.9588436484336853)
+		Word text: the (confidence: 0.994050145149231)
+		Word text: efforts (confidence: 0.994612991809845)
+		Word text: of (confidence: 0.9932516813278198)
+		Word text: the (confidence: 0.9934421181678772)
+		Word text: Government (confidence: 0.9854924082756042)
+		Word text: of (confidence: 0.9907379746437073)
+		Word text: Pakistan (confidence: 0.991124153137207)
+		Word text: to (confidence: 0.9937682151794434)
+		Word text: provide (confidence: 0.9946286678314209)
+		Word text: relief (confidence: 0.9945161938667297)
+		Word text: and (confidence: 0.9948763847351074)
+		Word text: emergency (confidence: 0.9950331449508667)
+		Word text: assistance (confidence: 0.9947522282600403)
+		Word text: to (confidence: 0.9953158497810364)
+		Word text: the (confidence: 0.9937987923622131)
+		Word text: people (confidence: 0.9899497628211975)
+		Word text: affected (confidence: 0.9941155910491943)
+		Word text: by (confidence: 0.9893920421600342)
+		Word text: the (confidence: 0.9938275814056396)
+		Word text: flood (confidence: 0.9893635511398315)
+		Word text: , (confidence: 0.9769385457038879)
+
+
+Block confidence: 0.9917290210723877
+	Paragraph confidence: 0.9917290210723877
+		Word text: Noting (confidence: 0.986051082611084)
+		Word text: that (confidence: 0.992039680480957)
+		Word text: the (confidence: 0.9942039847373962)
+		Word text: earnest (confidence: 0.9946190118789673)
+		Word text: efforts (confidence: 0.9951937198638916)
+		Word text: of (confidence: 0.9926767349243164)
+		Word text: the (confidence: 0.9944037795066833)
+		Word text: Government (confidence: 0.9947018027305603)
+		Word text: of (confidence: 0.9913827180862427)
+		Word text: Pakistan (confidence: 0.9924796223640442)
+		Word text: to (confidence: 0.958191454410553)
+		Word text: promote (confidence: 0.9934172630310059)
+		Word text: economic (confidence: 0.9939107894897461)
+		Word text: growth (confidence: 0.9951325058937073)
+		Word text: and (confidence: 0.9940378665924072)
+		Word text: development (confidence: 0.9905720353126526)
+		Word text: will (confidence: 0.988091230392456)
+		Word text: be (confidence: 0.9928167462348938)
+		Word text: hampered (confidence: 0.9939779043197632)
+		Word text: by (confidence: 0.9882416725158691)
+		Word text: this (confidence: 0.9893466234207153)
+		Word text: calamity (confidence: 0.9930142760276794)
+		Word text: , (confidence: 0.9514760375022888)
+
+
+Block confidence: 0.9907394647598267
+	Paragraph confidence: 0.9630849361419678
+		Word text: 1 (confidence: 0.9751469492912292)
+		Word text: . (confidence: 0.9510228633880615)
+
+	Paragraph confidence: 0.9914485812187195
+		Word text: Declares (confidence: 0.9916042685508728)
+		Word text: its (confidence: 0.9946743845939636)
+		Word text: solidarity (confidence: 0.9929452538490295)
+		Word text: with (confidence: 0.9940969347953796)
+		Word text: the (confidence: 0.9939802289009094)
+		Word text: Government (confidence: 0.9952044486999512)
+		Word text: and (confidence: 0.9931207299232483)
+		Word text: the (confidence: 0.9929455518722534)
+		Word text: people (confidence: 0.9893963932991028)
+		Word text: of (confidence: 0.9950532913208008)
+		Word text: Pakistan (confidence: 0.992855429649353)
+		Word text: in (confidence: 0.996343731880188)
+		Word text: this (confidence: 0.9943718910217285)
+		Word text: hour (confidence: 0.9907071590423584)
+		Word text: of (confidence: 0.9682919979095459)
+		Word text: trial (confidence: 0.9868478178977966)
+		Word text: ; (confidence: 0.9449517130851746)
+
+
+Block confidence: 0.9859564900398254
+	Paragraph confidence: 0.9859564900398254
+		Word text: 061092 (confidence: 0.9859564900398254)
+
+
+Block confidence: 0.9901308417320251
+	Paragraph confidence: 0.9901308417320251
+		Word text: 2. (confidence: 0.9785571694374084)
+		Word text: Notes (confidence: 0.9748141765594482)
+		Word text: with (confidence: 0.9810072183609009)
+		Word text: appreciation (confidence: 0.9914337396621704)
+		Word text: the (confidence: 0.9922037720680237)
+		Word text: efforts (confidence: 0.9925336241722107)
+		Word text: of (confidence: 0.9904449582099915)
+		Word text: the (confidence: 0.9916231036186218)
+		Word text: Government (confidence: 0.995185911655426)
+		Word text: of (confidence: 0.9927093982696533)
+		Word text: Pakistan (confidence: 0.9937133193016052)
+		Word text: to (confidence: 0.9918304085731506)
+		Word text: provide (confidence: 0.9934631586074829)
+		Word text: speedy (confidence: 0.9936305284500122)
+		Word text: relief (confidence: 0.9932753443717957)
+		Word text: to (confidence: 0.9931774139404297)
+		Word text: the (confidence: 0.9744386076927185)
+		Word text: flood (confidence: 0.9894880056381226)
+		Word text: victims (confidence: 0.9930443167686462)
+		Word text: from (confidence: 0.9936856031417847)
+		Word text: national (confidence: 0.9941476583480835)
+		Word text: resources (confidence: 0.9926839470863342)
+		Word text: ; (confidence: 0.8860942125320435)
+
+
+Block confidence: 0.9837847352027893
+	Paragraph confidence: 0.9911987781524658
+		Word text: 3 (confidence: 0.9904714226722717)
+		Word text: . (confidence: 0.9919261336326599)
+
+	Paragraph confidence: 0.9883276224136353
+		Word text: Commends (confidence: 0.9772049188613892)
+		Word text: the (confidence: 0.9935049414634705)
+		Word text: efforts (confidence: 0.9938332438468933)
+		Word text: of (confidence: 0.991470456123352)
+		Word text: the (confidence: 0.9909001588821411)
+		Word text: international (confidence: 0.9941310286521912)
+		Word text: community (confidence: 0.9812889099121094)
+		Word text: to (confidence: 0.9941885471343994)
+		Word text: supplement (confidence: 0.9660574793815613)
+		Word text: the (confidence: 0.9925031661987305)
+		Word text: efforts (confidence: 0.9941388964653015)
+		Word text: of (confidence: 0.9847344160079956)
+		Word text: the (confidence: 0.9910794496536255)
+		Word text: Government (confidence: 0.994507372379303)
+		Word text: of (confidence: 0.9907969236373901)
+		Word text: Pakistan (confidence: 0.9919963479042053)
+		Word text: in (confidence: 0.9924392700195312)
+		Word text: relief (confidence: 0.9912068843841553)
+		Word text: operations (confidence: 0.993092954158783)
+		Word text: and (confidence: 0.9961687922477722)
+		Word text: emergency (confidence: 0.9919591546058655)
+		Word text: assistance (confidence: 0.9939905405044556)
+		Word text: ; (confidence: 0.8717652559280396)
+
+	Paragraph confidence: 0.9556469321250916
+		Word text: 92-48361 (confidence: 0.9759649038314819)
+		Word text: 4382Z (confidence: 0.8735899925231934)
+		Word text: ( (confidence: 0.986762285232544)
+		Word text: E (confidence: 0.9706271886825562)
+		Word text: ) (confidence: 0.984282374382019)
+		Word text: 061092 (confidence: 0.9844818115234375)
+
+
+Block confidence: 0.6564543843269348
+	Paragraph confidence: 0.6564543843269348
+		Word text: / (confidence: 0.4387907087802887)
+		Word text: ... (confidence: 0.7290089130401611)
+
+
+Block confidence: 0.9860355257987976
+	Paragraph confidence: 0.9860355257987976
+		Word text: Digitized (confidence: 0.9916866421699524)
+		Word text: by (confidence: 0.9851861000061035)
+		Word text: Dag (confidence: 0.9903798699378967)
+		Word text: Hammarskjöld (confidence: 0.978625476360321)
+		Word text: Library (confidence: 0.9898536801338196)
+
+
+Block confidence: 0.954973578453064
+	Paragraph confidence: 0.954973578453064
+		Word text: A (confidence: 0.954973578453064)
+
+

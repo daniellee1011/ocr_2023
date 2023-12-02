@@ -1,0 +1,88 @@
+Block confidence: 0.9726809859275818
+	Paragraph confidence: 0.9726809859275818
+		Word text: A (confidence: 0.9585203528404236)
+		Word text: / (confidence: 0.9409943222999573)
+		Word text: 46 (confidence: 0.9688383340835571)
+		Word text: / (confidence: 0.9537606835365295)
+		Word text: L.76 (confidence: 0.9542129039764404)
+		Word text: English (confidence: 0.9854909181594849)
+		Word text: Page (confidence: 0.9853314161300659)
+		Word text: 5 (confidence: 0.9787347316741943)
+
+
+Block confidence: 0.9892802834510803
+	Paragraph confidence: 0.9892802834510803
+		Word text: delivery (confidence: 0.9919023513793945)
+		Word text: of (confidence: 0.9903280735015869)
+		Word text: humanitarian (confidence: 0.990451455116272)
+		Word text: assistance (confidence: 0.9945074319839478)
+		Word text: to (confidence: 0.9922149181365967)
+		Word text: all (confidence: 0.985431969165802)
+		Word text: parts (confidence: 0.9920160174369812)
+		Word text: of (confidence: 0.987997829914093)
+		Word text: the (confidence: 0.9904806017875671)
+		Word text: Republic (confidence: 0.9904699325561523)
+		Word text: of (confidence: 0.986591637134552)
+		Word text: Bosnia (confidence: 0.9832260012626648)
+		Word text: and (confidence: 0.994672417640686)
+		Word text: Herzegovina (confidence: 0.9927242994308472)
+		Word text: ; (confidence: 0.8689659237861633)
+
+
+Block confidence: 0.9908548593521118
+	Paragraph confidence: 0.9908548593521118
+		Word text: 15. (confidence: 0.9795714616775513)
+		Word text: Requests (confidence: 0.9853683710098267)
+		Word text: the (confidence: 0.9946924448013306)
+		Word text: Secretary (confidence: 0.9931022524833679)
+		Word text: - (confidence: 0.9913578629493713)
+		Word text: General (confidence: 0.9953271150588989)
+		Word text: to (confidence: 0.9945464134216309)
+		Word text: report (confidence: 0.9933580756187439)
+		Word text: to (confidence: 0.9946823716163635)
+		Word text: the (confidence: 0.992064356803894)
+		Word text: General (confidence: 0.989907443523407)
+		Word text: Assembly (confidence: 0.9884896874427795)
+		Word text: at (confidence: 0.9950539469718933)
+		Word text: its (confidence: 0.9937206506729126)
+		Word text: forty (confidence: 0.991752028465271)
+		Word text: - (confidence: 0.9544982314109802)
+		Word text: seventh (confidence: 0.9908249378204346)
+		Word text: session (confidence: 0.9938266277313232)
+		Word text: on (confidence: 0.9941220879554749)
+		Word text: the (confidence: 0.995392382144928)
+		Word text: implementation (confidence: 0.9895424842834473)
+		Word text: of (confidence: 0.991496205329895)
+		Word text: the (confidence: 0.9921841025352478)
+		Word text: present (confidence: 0.9941829442977905)
+		Word text: resolution (confidence: 0.9922158718109131)
+		Word text: ; (confidence: 0.947248637676239)
+
+
+Block confidence: 0.9906647801399231
+	Paragraph confidence: 0.9906647801399231
+		Word text: 16. (confidence: 0.8894283175468445)
+		Word text: Decides (confidence: 0.9939530491828918)
+		Word text: to (confidence: 0.9918570518493652)
+		Word text: remain (confidence: 0.996670126914978)
+		Word text: seized (confidence: 0.9932644367218018)
+		Word text: of (confidence: 0.993902325630188)
+		Word text: the (confidence: 0.9966979622840881)
+		Word text: matter (confidence: 0.9955110549926758)
+		Word text: and (confidence: 0.9968611001968384)
+		Word text: to (confidence: 0.9946705102920532)
+		Word text: continue (confidence: 0.9939885139465332)
+		Word text: its (confidence: 0.9937064051628113)
+		Word text: consideration (confidence: 0.9961001873016357)
+		Word text: of (confidence: 0.9930646419525146)
+		Word text: this (confidence: 0.9903225302696228)
+		Word text: item (confidence: 0.9941014647483826)
+		Word text: at (confidence: 0.9944556951522827)
+		Word text: its (confidence: 0.9940045475959778)
+		Word text: forty (confidence: 0.9934402108192444)
+		Word text: - (confidence: 0.9807847142219543)
+		Word text: seventh (confidence: 0.9948671460151672)
+		Word text: session (confidence: 0.9910493493080139)
+		Word text: . (confidence: 0.9598278999328613)
+
+

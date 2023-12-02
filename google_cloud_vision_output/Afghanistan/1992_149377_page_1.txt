@@ -1,0 +1,354 @@
+Block confidence: 0.9360396862030029
+	Paragraph confidence: 0.9360396862030029
+		Word text: UNITED (confidence: 0.9234797954559326)
+		Word text: NATIONS (confidence: 0.9468052983283997)
+
+
+Block confidence: 0.9755454063415527
+	Paragraph confidence: 0.9755454063415527
+		Word text: General (confidence: 0.9939408898353577)
+		Word text: Assembly (confidence: 0.9594493508338928)
+
+
+Block confidence: 0.985023021697998
+	Paragraph confidence: 0.985023021697998
+		Word text: Forty (confidence: 0.9856546521186829)
+		Word text: - (confidence: 0.8672913312911987)
+		Word text: sixth (confidence: 0.9863449931144714)
+		Word text: session (confidence: 0.9925300478935242)
+		Word text: Agenda (confidence: 0.986148476600647)
+		Word text: item (confidence: 0.9909153580665588)
+		Word text: 150 (confidence: 0.9933871030807495)
+
+
+Block confidence: 0.36895987391471863
+	Paragraph confidence: 0.36895987391471863
+		Word text: +43 (confidence: 0.36895987391471863)
+
+
+Block confidence: 0.9568671584129333
+	Paragraph confidence: 0.9568671584129333
+		Word text: THE (confidence: 0.9865436553955078)
+		Word text: SITUATION (confidence: 0.9270347952842712)
+		Word text: IN (confidence: 0.9835923910140991)
+		Word text: BOSNIA (confidence: 0.9329012036323547)
+		Word text: AND (confidence: 0.9849781394004822)
+		Word text: HERZEGOVINA (confidence: 0.9737284779548645)
+
+
+Block confidence: 0.9661450386047363
+	Paragraph confidence: 0.9661450386047363
+		Word text: The (confidence: 0.9695779085159302)
+		Word text: General (confidence: 0.993613600730896)
+		Word text: Assembly (confidence: 0.9592313170433044)
+		Word text: , (confidence: 0.818877100944519)
+
+
+Block confidence: 0.35221007466316223
+	Paragraph confidence: 0.35221007466316223
+		Word text: LATEA (confidence: 0.3205232322216034)
+		Word text: COUSC (confidence: 0.38389694690704346)
+
+
+Block confidence: 0.9619788527488708
+	Paragraph confidence: 0.9619788527488708
+		Word text: Distr (confidence: 0.9856528639793396)
+		Word text: . (confidence: 0.9166467189788818)
+		Word text: LIMITED (confidence: 0.9515448212623596)
+
+
+Block confidence: 0.9711978435516357
+	Paragraph confidence: 0.9711978435516357
+		Word text: Afghanistan (confidence: 0.9680443406105042)
+		Word text: , (confidence: 0.9185003638267517)
+		Word text: Albania (confidence: 0.9907886981964111)
+		Word text: , (confidence: 0.7917565107345581)
+		Word text: Algeria (confidence: 0.9732471108436584)
+		Word text: , (confidence: 0.9779338836669922)
+		Word text: Azerbaijan (confidence: 0.9853366017341614)
+		Word text: , (confidence: 0.914513349533081)
+		Word text: Bangladesh (confidence: 0.9612651467323303)
+		Word text: , (confidence: 0.8608794212341309)
+		Word text: Bosnia (confidence: 0.984557569026947)
+		Word text: and (confidence: 0.9946261048316956)
+		Word text: Herzegovina (confidence: 0.993496298789978)
+		Word text: , (confidence: 0.9172439575195312)
+		Word text: Comoros (confidence: 0.9887159466743469)
+		Word text: , (confidence: 0.7851069569587708)
+		Word text: Diibouti (confidence: 0.9783169627189636)
+		Word text: , (confidence: 0.7830730080604553)
+		Word text: Egypt (confidence: 0.9653823375701904)
+		Word text: , (confidence: 0.8684450387954712)
+		Word text: Guinea (confidence: 0.984565019607544)
+		Word text: , (confidence: 0.8489062190055847)
+		Word text: Indonesia (confidence: 0.9920933842658997)
+		Word text: , (confidence: 0.8524367213249207)
+		Word text: Iran (confidence: 0.9912652969360352)
+		Word text: ( (confidence: 0.9514368176460266)
+		Word text: Islamic (confidence: 0.9719356298446655)
+		Word text: Republic (confidence: 0.9865092039108276)
+		Word text: of (confidence: 0.984904408454895)
+		Word text: ) (confidence: 0.9759216904640198)
+		Word text: , (confidence: 0.916292667388916)
+		Word text: Jordan (confidence: 0.9914069175720215)
+		Word text: , (confidence: 0.8343960046768188)
+		Word text: Kuwait (confidence: 0.975947916507721)
+		Word text: , (confidence: 0.8437119722366333)
+		Word text: Latvia (confidence: 0.9865841865539551)
+		Word text: , (confidence: 0.8098333477973938)
+		Word text: Lithuania (confidence: 0.9869747757911682)
+		Word text: , (confidence: 0.9268499612808228)
+		Word text: Malaysia (confidence: 0.993476152420044)
+		Word text: , (confidence: 0.9462454915046692)
+		Word text: Mauritania (confidence: 0.9933857321739197)
+		Word text: , (confidence: 0.9866589903831482)
+		Word text: Morocco (confidence: 0.9825373888015747)
+		Word text: , (confidence: 0.8266216516494751)
+		Word text: Oman (confidence: 0.986117422580719)
+		Word text: , (confidence: 0.592300534248352)
+		Word text: Pakistan (confidence: 0.9880660176277161)
+		Word text: , (confidence: 0.6551286578178406)
+		Word text: Saudi (confidence: 0.9851462841033936)
+		Word text: Arabia (confidence: 0.9928594827651978)
+		Word text: , (confidence: 0.9064175486564636)
+		Word text: Senegal (confidence: 0.9878913760185242)
+		Word text: , (confidence: 0.949794590473175)
+		Word text: Slovenia (confidence: 0.9900993704795837)
+		Word text: , (confidence: 0.9748377799987793)
+		Word text: Sudan (confidence: 0.9154964089393616)
+		Word text: , (confidence: 0.8576377034187317)
+		Word text: Tunisia (confidence: 0.9801027178764343)
+		Word text: , (confidence: 0.680324375629425)
+		Word text: Turkey (confidence: 0.9755473136901855)
+		Word text: and (confidence: 0.994024932384491)
+		Word text: United (confidence: 0.9919695258140564)
+		Word text: Arab (confidence: 0.9929711818695068)
+		Word text: Emirates (confidence: 0.9899729490280151)
+		Word text: : (confidence: 0.7489222884178162)
+		Word text: draft (confidence: 0.995175838470459)
+		Word text: resolution (confidence: 0.987974226474762)
+
+
+Block confidence: 0.9657368659973145
+	Paragraph confidence: 0.957046627998352
+		Word text: A (confidence: 0.9850064516067505)
+		Word text: / (confidence: 0.9670253992080688)
+		Word text: 46 (confidence: 0.9659461975097656)
+		Word text: / (confidence: 0.9419493079185486)
+		Word text: L.76 (confidence: 0.9468865990638733)
+
+	Paragraph confidence: 0.9722545146942139
+		Word text: 24 (confidence: 0.9834862947463989)
+		Word text: August (confidence: 0.9651594161987305)
+		Word text: 1992 (confidence: 0.9772811532020569)
+
+
+Block confidence: 0.9204744100570679
+	Paragraph confidence: 0.9204744100570679
+		Word text: ORIGINAL (confidence: 0.894926905632019)
+		Word text: : (confidence: 0.9088243246078491)
+		Word text: ENGLISH (confidence: 0.9513359069824219)
+
+
+Block confidence: 0.9902472496032715
+	Paragraph confidence: 0.9902472496032715
+		Word text: Having (confidence: 0.989548921585083)
+		Word text: considered (confidence: 0.9921534061431885)
+		Word text: the (confidence: 0.9968338012695312)
+		Word text: item (confidence: 0.9930895566940308)
+		Word text: entitled (confidence: 0.9941526055335999)
+		Word text: " (confidence: 0.873436689376831)
+		Word text: The (confidence: 0.9935699105262756)
+		Word text: situation (confidence: 0.9958174228668213)
+		Word text: in (confidence: 0.988154947757721)
+		Word text: Bosnia (confidence: 0.994664192199707)
+		Word text: and (confidence: 0.9961269497871399)
+		Word text: Herzegovina (confidence: 0.9915666580200195)
+		Word text: " (confidence: 0.9698349237442017)
+		Word text: , (confidence: 0.9356589913368225)
+
+
+Block confidence: 0.9879218339920044
+	Paragraph confidence: 0.9879218339920044
+		Word text: Reaffirming (confidence: 0.9917060732841492)
+		Word text: the (confidence: 0.9899234771728516)
+		Word text: purposes (confidence: 0.9839727878570557)
+		Word text: and (confidence: 0.994089663028717)
+		Word text: principles (confidence: 0.9907343983650208)
+		Word text: of (confidence: 0.9928359985351562)
+		Word text: the (confidence: 0.9946287870407104)
+		Word text: Charter (confidence: 0.9913113713264465)
+		Word text: of (confidence: 0.9916733503341675)
+		Word text: the (confidence: 0.9939224720001221)
+		Word text: United (confidence: 0.9878093004226685)
+		Word text: Nations (confidence: 0.9915058016777039)
+		Word text: and (confidence: 0.9932180643081665)
+		Word text: guided (confidence: 0.9852692484855652)
+		Word text: by (confidence: 0.9913846254348755)
+		Word text: the (confidence: 0.992120087146759)
+		Word text: need (confidence: 0.9943971633911133)
+		Word text: to (confidence: 0.9925346374511719)
+		Word text: implement (confidence: 0.9870994687080383)
+		Word text: them (confidence: 0.9868518710136414)
+		Word text: , (confidence: 0.7787190079689026)
+
+
+Block confidence: 0.9546018838882446
+	Paragraph confidence: 0.9546018838882446
+		Word text: 92-39580 (confidence: 0.9740663766860962)
+		Word text: 4357Z (confidence: 0.8899612426757812)
+		Word text: ( (confidence: 0.9757117629051208)
+		Word text: E (confidence: 0.8846039175987244)
+		Word text: ) (confidence: 0.9659193754196167)
+		Word text: 240892 (confidence: 0.9887781143188477)
+
+
+Block confidence: 0.9927796721458435
+	Paragraph confidence: 0.9927796721458435
+		Word text: Aware (confidence: 0.988709568977356)
+		Word text: of (confidence: 0.989598274230957)
+		Word text: its (confidence: 0.9957802891731262)
+		Word text: responsibility (confidence: 0.9938597083091736)
+		Word text: to (confidence: 0.9965865612030029)
+		Word text: promote (confidence: 0.9925592541694641)
+		Word text: and (confidence: 0.9954981207847595)
+		Word text: encourage (confidence: 0.9893358945846558)
+		Word text: respect (confidence: 0.9952986836433411)
+		Word text: for (confidence: 0.9944049715995789)
+		Word text: international (confidence: 0.9953197836875916)
+		Word text: legitimacy (confidence: 0.9927401542663574)
+		Word text: , (confidence: 0.9570028185844421)
+
+
+Block confidence: 0.9911278486251831
+	Paragraph confidence: 0.9911278486251831
+		Word text: Considering (confidence: 0.9866069555282593)
+		Word text: that (confidence: 0.9954370260238647)
+		Word text: the (confidence: 0.9950498938560486)
+		Word text: United (confidence: 0.9911690354347229)
+		Word text: Nations (confidence: 0.9916879534721375)
+		Word text: , (confidence: 0.9766015410423279)
+		Word text: pursuant (confidence: 0.9862015247344971)
+		Word text: to (confidence: 0.9937810897827148)
+		Word text: the (confidence: 0.9965845942497253)
+		Word text: provisions (confidence: 0.9912282228469849)
+		Word text: of (confidence: 0.9913100600242615)
+		Word text: its (confidence: 0.9922223091125488)
+		Word text: Charter (confidence: 0.9876031279563904)
+		Word text: , (confidence: 0.9539485573768616)
+		Word text: has (confidence: 0.9934923052787781)
+		Word text: a (confidence: 0.996330738067627)
+		Word text: major (confidence: 0.9933081865310669)
+		Word text: role (confidence: 0.9900113344192505)
+		Word text: to (confidence: 0.9970970153808594)
+		Word text: play (confidence: 0.9906947016716003)
+		Word text: in (confidence: 0.9894394874572754)
+		Word text: , (confidence: 0.9875003099441528)
+		Word text: and (confidence: 0.9966002702713013)
+		Word text: responsibility (confidence: 0.9921951293945312)
+		Word text: for (confidence: 0.9883779883384705)
+		Word text: , (confidence: 0.9553572535514832)
+		Word text: the (confidence: 0.9951410889625549)
+		Word text: maintenance (confidence: 0.9963524341583252)
+		Word text: of (confidence: 0.9915941953659058)
+		Word text: international (confidence: 0.9956475496292114)
+		Word text: peace (confidence: 0.9932916760444641)
+		Word text: and (confidence: 0.9932458400726318)
+		Word text: security (confidence: 0.9915082454681396)
+		Word text: , (confidence: 0.9384554624557495)
+
+
+Block confidence: 0.987889289855957
+	Paragraph confidence: 0.987889289855957
+		Word text: Recalling (confidence: 0.9867112040519714)
+		Word text: the (confidence: 0.9950628876686096)
+		Word text: relevant (confidence: 0.9922943711280823)
+		Word text: resolutions (confidence: 0.9846283197402954)
+		Word text: of (confidence: 0.9889575242996216)
+		Word text: the (confidence: 0.9966211318969727)
+		Word text: Security (confidence: 0.9928752183914185)
+		Word text: Council (confidence: 0.9920307397842407)
+		Word text: , (confidence: 0.9940890073776245)
+		Word text: the (confidence: 0.995184063911438)
+		Word text: United (confidence: 0.9918487668037415)
+		Word text: Nations (confidence: 0.9930490255355835)
+		Word text: Educational (confidence: 0.9865373969078064)
+		Word text: , (confidence: 0.9847829937934875)
+		Word text: Scientific (confidence: 0.9915635585784912)
+		Word text: and (confidence: 0.9937393069267273)
+		Word text: Cultural (confidence: 0.9747844934463501)
+		Word text: Organization (confidence: 0.9734442234039307)
+		Word text: and (confidence: 0.9956677556037903)
+		Word text: the (confidence: 0.9949442148208618)
+		Word text: Commission (confidence: 0.9906694889068604)
+		Word text: on (confidence: 0.9670721292495728)
+		Word text: Human (confidence: 0.9760847687721252)
+		Word text: Rights (confidence: 0.9913830757141113)
+		Word text: , (confidence: 0.9914902448654175)
+		Word text: as (confidence: 0.9934662580490112)
+		Word text: well (confidence: 0.9685836434364319)
+		Word text: as (confidence: 0.9937947988510132)
+		Word text: decision (confidence: 0.9920582175254822)
+		Word text: 1992/305 (confidence: 0.9912413358688354)
+		Word text: of (confidence: 0.9919317364692688)
+		Word text: the (confidence: 0.99408358335495)
+		Word text: Economic (confidence: 0.9938621520996094)
+		Word text: and (confidence: 0.9946423172950745)
+		Word text: Social (confidence: 0.9926470518112183)
+		Word text: Council (confidence: 0.9793348908424377)
+		Word text: , (confidence: 0.9688012599945068)
+
+
+Block confidence: 0.9931561350822449
+	Paragraph confidence: 0.9931561350822449
+		Word text: 240892 (confidence: 0.9931561350822449)
+
+
+Block confidence: 0.990290641784668
+	Paragraph confidence: 0.990290641784668
+		Word text: Noting (confidence: 0.9907947182655334)
+		Word text: that (confidence: 0.9927601218223572)
+		Word text: a (confidence: 0.9940862655639648)
+		Word text: large (confidence: 0.9958190321922302)
+		Word text: number (confidence: 0.982979953289032)
+		Word text: of (confidence: 0.9941300749778748)
+		Word text: States (confidence: 0.9944711327552795)
+		Word text: have (confidence: 0.9944548606872559)
+		Word text: reserved (confidence: 0.9920340180397034)
+		Word text: their (confidence: 0.9943602085113525)
+		Word text: position (confidence: 0.9928352236747742)
+		Word text: regarding (confidence: 0.9929006099700928)
+		Word text: the (confidence: 0.9918926954269409)
+		Word text: succession (confidence: 0.9828135967254639)
+		Word text: of (confidence: 0.9920650720596313)
+		Word text: the (confidence: 0.9934900999069214)
+		Word text: Socialist (confidence: 0.9926076531410217)
+		Word text: Federal (confidence: 0.9934359192848206)
+		Word text: Republic (confidence: 0.9938392043113708)
+		Word text: of (confidence: 0.9904811382293701)
+		Word text: Yugoslavia (confidence: 0.9894249439239502)
+		Word text: by (confidence: 0.9928610324859619)
+		Word text: the (confidence: 0.9853565096855164)
+		Word text: Federal (confidence: 0.9856339693069458)
+		Word text: Republic (confidence: 0.978251039981842)
+		Word text: of (confidence: 0.9906675219535828)
+		Word text: Yugoslavia (confidence: 0.9873658418655396)
+		Word text: ( (confidence: 0.9676042795181274)
+		Word text: Serbia (confidence: 0.9942366480827332)
+		Word text: and (confidence: 0.9936777949333191)
+		Word text: Montenegro (confidence: 0.9947623014450073)
+		Word text: ) (confidence: 0.9783202409744263)
+		Word text: , (confidence: 0.9792667627334595)
+
+
+Block confidence: 0.6310870051383972
+	Paragraph confidence: 0.6310870051383972
+		Word text: / (confidence: 0.3552623689174652)
+		Word text: ... (confidence: 0.7230286002159119)
+
+
+Block confidence: 0.962066650390625
+	Paragraph confidence: 0.962066650390625
+		Word text: A (confidence: 0.962066650390625)
+
+

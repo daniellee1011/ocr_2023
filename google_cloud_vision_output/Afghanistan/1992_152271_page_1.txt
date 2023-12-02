@@ -1,0 +1,381 @@
+Block confidence: 0.9584121704101562
+	Paragraph confidence: 0.9584121704101562
+		Word text: UNITED (confidence: 0.9690932631492615)
+		Word text: NATIONS (confidence: 0.949256956577301)
+
+
+Block confidence: 0.9747294187545776
+	Paragraph confidence: 0.9747294187545776
+		Word text: General (confidence: 0.9926415085792542)
+		Word text: Assembly (confidence: 0.9590563178062439)
+
+
+Block confidence: 0.9849796891212463
+	Paragraph confidence: 0.9849796891212463
+		Word text: Forty (confidence: 0.9874254465103149)
+		Word text: - (confidence: 0.8448424935340881)
+		Word text: seventh (confidence: 0.9946345686912537)
+		Word text: session (confidence: 0.9935973882675171)
+
+
+Block confidence: 0.9835785031318665
+	Paragraph confidence: 0.9835785031318665
+		Word text: THIRD (confidence: 0.979576826095581)
+		Word text: COMMITTEE (confidence: 0.9808586835861206)
+		Word text: Agenda (confidence: 0.9845635890960693)
+		Word text: item (confidence: 0.9910985827445984)
+		Word text: 92 (confidence: 0.9878265857696533)
+
+
+Block confidence: 0.9585002660751343
+	Paragraph confidence: 0.9585002660751343
+		Word text: RIGHT (confidence: 0.9786937236785889)
+		Word text: OF (confidence: 0.9782170057296753)
+		Word text: PEOPLES (confidence: 0.9612311124801636)
+		Word text: TO (confidence: 0.9431118965148926)
+		Word text: SELF (confidence: 0.9767685532569885)
+		Word text: - (confidence: 0.9544373750686646)
+		Word text: DETERMINATION (confidence: 0.9432886838912964)
+
+
+Block confidence: 0.9809417128562927
+	Paragraph confidence: 0.9809417128562927
+		Word text: The (confidence: 0.9772928357124329)
+		Word text: General (confidence: 0.9937015175819397)
+		Word text: Assembly (confidence: 0.9847701787948608)
+		Word text: , (confidence: 0.8719416260719299)
+
+
+Block confidence: 0.9824736714363098
+	Paragraph confidence: 0.9824736714363098
+		Word text: 92-50778 (confidence: 0.9824736714363098)
+
+
+Block confidence: 0.9771556258201599
+	Paragraph confidence: 0.9771556258201599
+		Word text: Afghanistan (confidence: 0.9858489632606506)
+		Word text: , (confidence: 0.9343313574790955)
+		Word text: Bahamas (confidence: 0.9931623339653015)
+		Word text: , (confidence: 0.9766513109207153)
+		Word text: Bosnia (confidence: 0.9851627349853516)
+		Word text: and (confidence: 0.9948189854621887)
+		Word text: Herzegovina (confidence: 0.9926478862762451)
+		Word text: , (confidence: 0.931900680065155)
+		Word text: Botswana (confidence: 0.9866220355033875)
+		Word text: , (confidence: 0.8704362511634827)
+		Word text: Brunei (confidence: 0.9892102479934692)
+		Word text: Darussalam (confidence: 0.988182008266449)
+		Word text: , (confidence: 0.8789606690406799)
+		Word text: Cape (confidence: 0.9465402960777283)
+		Word text: Verde (confidence: 0.9902600646018982)
+		Word text: , (confidence: 0.7536543011665344)
+		Word text: Chile (confidence: 0.9893043637275696)
+		Word text: , (confidence: 0.7883009314537048)
+		Word text: Colombia (confidence: 0.983669638633728)
+		Word text: , (confidence: 0.9673710465431213)
+		Word text: Comoros (confidence: 0.9905582070350647)
+		Word text: , (confidence: 0.8883001208305359)
+		Word text: Costa (confidence: 0.9900705814361572)
+		Word text: Rica (confidence: 0.9942867159843445)
+		Word text: , (confidence: 0.882906436920166)
+		Word text: Ecuador (confidence: 0.9746630191802979)
+		Word text: , (confidence: 0.8744295835494995)
+		Word text: El (confidence: 0.8763337135314941)
+		Word text: Salvador (confidence: 0.9907444715499878)
+		Word text: , (confidence: 0.9303069710731506)
+		Word text: Guatemala (confidence: 0.9925729632377625)
+		Word text: , (confidence: 0.9509263634681702)
+		Word text: Iran (confidence: 0.979460597038269)
+		Word text: ( (confidence: 0.9127076864242554)
+		Word text: Islamic (confidence: 0.9294987916946411)
+		Word text: Republic (confidence: 0.9865607023239136)
+		Word text: of (confidence: 0.9790022373199463)
+		Word text: ) (confidence: 0.92485511302948)
+		Word text: , (confidence: 0.696927011013031)
+		Word text: Jordan (confidence: 0.9908490777015686)
+		Word text: , (confidence: 0.8197813034057617)
+		Word text: Kuwait (confidence: 0.9778274893760681)
+		Word text: , (confidence: 0.9734646677970886)
+		Word text: Malaysia (confidence: 0.9940832853317261)
+		Word text: , (confidence: 0.9677736759185791)
+		Word text: Morocco (confidence: 0.9722418785095215)
+		Word text: , (confidence: 0.9312977194786072)
+		Word text: Oman (confidence: 0.9791819453239441)
+		Word text: , (confidence: 0.9340478777885437)
+		Word text: Pakistan (confidence: 0.99290931224823)
+		Word text: , (confidence: 0.8546086549758911)
+		Word text: Papua (confidence: 0.9903351664543152)
+		Word text: New (confidence: 0.9906407594680786)
+		Word text: Guinea (confidence: 0.9845231175422668)
+		Word text: , (confidence: 0.9330477118492126)
+		Word text: Qatar (confidence: 0.9569339752197266)
+		Word text: , (confidence: 0.9172422885894775)
+		Word text: Samoa (confidence: 0.9904216527938843)
+		Word text: , (confidence: 0.6929915547370911)
+		Word text: Saudi (confidence: 0.9923307299613953)
+		Word text: Arabia (confidence: 0.9913495182991028)
+		Word text: , (confidence: 0.9695947170257568)
+		Word text: Sierra (confidence: 0.9925902485847473)
+		Word text: Leone (confidence: 0.9935420751571655)
+		Word text: , (confidence: 0.9238313436508179)
+		Word text: Singapore (confidence: 0.9931681156158447)
+		Word text: , (confidence: 0.9125093817710876)
+		Word text: Sudan (confidence: 0.9626085162162781)
+		Word text: , (confidence: 0.8517226576805115)
+		Word text: Thailand (confidence: 0.9907549619674683)
+		Word text: , (confidence: 0.9785400629043579)
+		Word text: Trinidad (confidence: 0.9928011894226074)
+		Word text: and (confidence: 0.9966040253639221)
+		Word text: Tobago (confidence: 0.9919849038124084)
+		Word text: and (confidence: 0.9910616874694824)
+		Word text: United (confidence: 0.9815636873245239)
+		Word text: Arab (confidence: 0.9920377731323242)
+		Word text: Emirates (confidence: 0.9930484294891357)
+		Word text: : (confidence: 0.9728914499282837)
+		Word text: draft (confidence: 0.993393063545227)
+		Word text: resolution (confidence: 0.9902476072311401)
+
+
+Block confidence: 0.9612581729888916
+	Paragraph confidence: 0.9612581729888916
+		Word text: Distr (confidence: 0.983130693435669)
+		Word text: . (confidence: 0.877921998500824)
+		Word text: LIMITED (confidence: 0.9575400948524475)
+
+
+Block confidence: 0.9891296625137329
+	Paragraph confidence: 0.9891296625137329
+		Word text: Universal (confidence: 0.9893561601638794)
+		Word text: realization (confidence: 0.9882267713546753)
+		Word text: of (confidence: 0.9890678524971008)
+		Word text: the (confidence: 0.9932909607887268)
+		Word text: right (confidence: 0.9913715720176697)
+		Word text: of (confidence: 0.9872176051139832)
+		Word text: peoples (confidence: 0.9916223287582397)
+		Word text: to (confidence: 0.9918889999389648)
+		Word text: self (confidence: 0.9884504079818726)
+		Word text: - (confidence: 0.894701361656189)
+		Word text: determination (confidence: 0.9939238429069519)
+
+
+Block confidence: 0.962386429309845
+	Paragraph confidence: 0.962386429309845
+		Word text: A (confidence: 0.9595764875411987)
+		Word text: / (confidence: 0.9398168921470642)
+		Word text: C.3 (confidence: 0.9238342046737671)
+		Word text: / (confidence: 0.922469973564148)
+		Word text: 47 (confidence: 0.9699457883834839)
+		Word text: / (confidence: 0.9490143060684204)
+		Word text: L.5 (confidence: 0.9558274149894714)
+		Word text: 16 (confidence: 0.9702245593070984)
+		Word text: October (confidence: 0.9806194305419922)
+		Word text: 1992 (confidence: 0.9762803316116333)
+
+
+Block confidence: 0.9861843585968018
+	Paragraph confidence: 0.9861843585968018
+		Word text: Reaffirming (confidence: 0.992121160030365)
+		Word text: the (confidence: 0.9913167953491211)
+		Word text: importance (confidence: 0.991884171962738)
+		Word text: , (confidence: 0.9686060547828674)
+		Word text: for (confidence: 0.99393230676651)
+		Word text: the (confidence: 0.9950567483901978)
+		Word text: effective (confidence: 0.9952598214149475)
+		Word text: guarantee (confidence: 0.9934344291687012)
+		Word text: and (confidence: 0.9953128695487976)
+		Word text: observance (confidence: 0.9962461590766907)
+		Word text: of (confidence: 0.9897818565368652)
+		Word text: human (confidence: 0.9671241641044617)
+		Word text: rights (confidence: 0.989147424697876)
+		Word text: , (confidence: 0.9689292907714844)
+		Word text: of (confidence: 0.989829421043396)
+		Word text: the (confidence: 0.9931288361549377)
+		Word text: universal (confidence: 0.9942407011985779)
+		Word text: realization (confidence: 0.9942732453346252)
+		Word text: of (confidence: 0.9922513961791992)
+		Word text: the (confidence: 0.9917814135551453)
+		Word text: right (confidence: 0.9877306818962097)
+		Word text: of (confidence: 0.9902917146682739)
+		Word text: peoples (confidence: 0.989749550819397)
+		Word text: to (confidence: 0.9914627075195312)
+		Word text: self (confidence: 0.9850701689720154)
+		Word text: - (confidence: 0.8358184695243835)
+		Word text: determination (confidence: 0.9945037961006165)
+		Word text: enshrined (confidence: 0.9953171610832214)
+		Word text: in (confidence: 0.9958523511886597)
+		Word text: the (confidence: 0.9977400898933411)
+		Word text: Charter (confidence: 0.9957712292671204)
+		Word text: of (confidence: 0.9949180483818054)
+		Word text: the (confidence: 0.9957996606826782)
+		Word text: United (confidence: 0.9926596283912659)
+		Word text: Nations (confidence: 0.9916344285011292)
+		Word text: and (confidence: 0.9964622259140015)
+		Word text: embodied (confidence: 0.9864986538887024)
+		Word text: . (confidence: 0.33441638946533203)
+		Word text: in (confidence: 0.9892334938049316)
+		Word text: the (confidence: 0.9938193559646606)
+		Word text: International (confidence: 0.9937792420387268)
+		Word text: Covenants (confidence: 0.9925873279571533)
+		Word text: on (confidence: 0.9927630424499512)
+		Word text: Human (confidence: 0.9798612594604492)
+		Word text: Rights (confidence: 0.9838144183158875)
+		Word text: , (confidence: 0.9662072062492371)
+		Word text: 1 (confidence: 0.708593487739563)
+		Word text: / (confidence: 0.5909469723701477)
+		Word text: as (confidence: 0.9866828322410583)
+		Word text: well (confidence: 0.9732373356819153)
+		Word text: as (confidence: 0.9923151135444641)
+		Word text: in (confidence: 0.9929097890853882)
+		Word text: the (confidence: 0.9927369952201843)
+		Word text: Declaration (confidence: 0.9909429550170898)
+		Word text: on (confidence: 0.9954536557197571)
+		Word text: the (confidence: 0.9970790147781372)
+		Word text: Granting (confidence: 0.9940078258514404)
+		Word text: of (confidence: 0.9945399761199951)
+		Word text: Independence (confidence: 0.993529736995697)
+		Word text: to (confidence: 0.9933019280433655)
+		Word text: Colonial (confidence: 0.9905858039855957)
+		Word text: Countries (confidence: 0.9912105798721313)
+		Word text: and (confidence: 0.9925382137298584)
+		Word text: Peoples (confidence: 0.9855962991714478)
+		Word text: contained (confidence: 0.9938189387321472)
+		Word text: in (confidence: 0.9935777187347412)
+		Word text: General (confidence: 0.9927638173103333)
+		Word text: Assembly (confidence: 0.9755027890205383)
+		Word text: resolution (confidence: 0.9801202416419983)
+		Word text: 1514 (confidence: 0.9898656010627747)
+		Word text: ( (confidence: 0.969750702381134)
+		Word text: XV (confidence: 0.9189727306365967)
+		Word text: ) (confidence: 0.9807180762290955)
+		Word text: of (confidence: 0.9882498979568481)
+		Word text: 14 (confidence: 0.9899954199790955)
+		Word text: December (confidence: 0.9965662360191345)
+		Word text: 1960 (confidence: 0.9847577810287476)
+		Word text: , (confidence: 0.9312711954116821)
+
+
+Block confidence: 0.9494050741195679
+	Paragraph confidence: 0.9494050741195679
+		Word text: 1 (confidence: 0.9689301252365112)
+		Word text: / (confidence: 0.9583116173744202)
+		Word text: Resolution (confidence: 0.906520426273346)
+		Word text: 2200 (confidence: 0.9921343922615051)
+		Word text: A (confidence: 0.9751451015472412)
+		Word text: ( (confidence: 0.914838969707489)
+		Word text: XXI (confidence: 0.9287227392196655)
+		Word text: ) (confidence: 0.9831238985061646)
+		Word text: , (confidence: 0.9819271564483643)
+		Word text: annex (confidence: 0.9929327368736267)
+		Word text: . (confidence: 0.9658952951431274)
+
+
+Block confidence: 0.9539575576782227
+	Paragraph confidence: 0.9539575576782227
+		Word text: ORIGINAL (confidence: 0.964957594871521)
+		Word text: : (confidence: 0.9474155306816101)
+		Word text: ENGLISH (confidence: 0.942320704460144)
+
+
+Block confidence: 0.9911442995071411
+	Paragraph confidence: 0.9911442995071411
+		Word text: Welcoming (confidence: 0.9903064966201782)
+		Word text: the (confidence: 0.9946707487106323)
+		Word text: progressive (confidence: 0.9921403527259827)
+		Word text: exercise (confidence: 0.9933182597160339)
+		Word text: of (confidence: 0.9927204847335815)
+		Word text: the (confidence: 0.995187520980835)
+		Word text: right (confidence: 0.9922295212745667)
+		Word text: to (confidence: 0.9919660687446594)
+		Word text: self (confidence: 0.9912005662918091)
+		Word text: - (confidence: 0.9836723208427429)
+		Word text: determination (confidence: 0.9943349361419678)
+		Word text: by (confidence: 0.9870636463165283)
+		Word text: peoples (confidence: 0.9853745698928833)
+		Word text: under (confidence: 0.991053581237793)
+		Word text: colonial (confidence: 0.9892606139183044)
+		Word text: , (confidence: 0.9729441404342651)
+		Word text: foreign (confidence: 0.9942923188209534)
+		Word text: or (confidence: 0.9946621656417847)
+		Word text: alien (confidence: 0.991536557674408)
+		Word text: occupation (confidence: 0.9877656102180481)
+		Word text: and (confidence: 0.9939490556716919)
+		Word text: their (confidence: 0.9922196865081787)
+		Word text: emergence (confidence: 0.9926390051841736)
+		Word text: into (confidence: 0.9931119680404663)
+		Word text: sovereign (confidence: 0.9801341891288757)
+		Word text: statehood (confidence: 0.99403315782547)
+		Word text: and (confidence: 0.9917540550231934)
+		Word text: independence (confidence: 0.9950088858604431)
+		Word text: , (confidence: 0.9779757857322693)
+
+
+Block confidence: 0.9878048896789551
+	Paragraph confidence: 0.9878048896789551
+		Word text: Deeply (confidence: 0.963621973991394)
+		Word text: concerned (confidence: 0.994536280632019)
+		Word text: at (confidence: 0.9925151467323303)
+		Word text: the (confidence: 0.9927352666854858)
+		Word text: continuation (confidence: 0.9933528304100037)
+		Word text: of (confidence: 0.991913914680481)
+		Word text: acts (confidence: 0.9928763508796692)
+		Word text: or (confidence: 0.9888660907745361)
+		Word text: threats (confidence: 0.9940665364265442)
+		Word text: of (confidence: 0.9910784959793091)
+		Word text: foreign (confidence: 0.9947563409805298)
+		Word text: military (confidence: 0.9846152663230896)
+		Word text: intervention (confidence: 0.9952064752578735)
+		Word text: and (confidence: 0.9947988986968994)
+		Word text: occupation (confidence: 0.9863215088844299)
+		Word text: that (confidence: 0.9960669279098511)
+		Word text: are (confidence: 0.9937901496887207)
+		Word text: threatening (confidence: 0.9928755760192871)
+		Word text: to (confidence: 0.9945430755615234)
+		Word text: suppress (confidence: 0.976239800453186)
+		Word text: , (confidence: 0.9520524740219116)
+		Word text: or (confidence: 0.9918067455291748)
+		Word text: have (confidence: 0.9946709871292114)
+		Word text: already (confidence: 0.9938891530036926)
+		Word text: suppressed (confidence: 0.9737036824226379)
+		Word text: , (confidence: 0.9632182121276855)
+		Word text: ight (confidence: 0.9848452806472778)
+		Word text: to (confidence: 0.994378387928009)
+		Word text: self (confidence: 0.9941641092300415)
+		Word text: - (confidence: 0.963123083114624)
+		Word text: determination (confidence: 0.9951586723327637)
+		Word text: of (confidence: 0.9914020895957947)
+		Word text: an (confidence: 0.9899753332138062)
+		Word text: increasing (confidence: 0.9792227149009705)
+		Word text: number (confidence: 0.9843490719795227)
+		Word text: of (confidence: 0.991987943649292)
+		Word text: sovereign (confidence: 0.9661639928817749)
+		Word text: peoples (confidence: 0.9921169281005859)
+		Word text: and (confidence: 0.996457576751709)
+		Word text: nations (confidence: 0.995281994342804)
+		Word text: , (confidence: 0.9532518982887268)
+
+
+Block confidence: 0.9417493343353271
+	Paragraph confidence: 0.9417493343353271
+		Word text: 201092 (confidence: 0.9891829490661621)
+		Word text: 44172 (confidence: 0.8683289885520935)
+		Word text: ( (confidence: 0.933855414390564)
+		Word text: E (confidence: 0.9851328730583191)
+		Word text: ) (confidence: 0.9887593984603882)
+
+
+Block confidence: 0.9839074611663818
+	Paragraph confidence: 0.9839074611663818
+		Word text: 201092 (confidence: 0.9839074611663818)
+
+
+Block confidence: 0.6469089388847351
+	Paragraph confidence: 0.6469089388847351
+		Word text: / (confidence: 0.3368227481842041)
+		Word text: ... (confidence: 0.7502710223197937)
+
+
+Block confidence: 0.9576058983802795
+	Paragraph confidence: 0.9576058983802795
+		Word text: A (confidence: 0.9576058983802795)
+
+
