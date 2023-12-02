@@ -1,6 +1,20 @@
 # Weekly Update Log
 
 
+## Week of 11/27 - 12/01
+
+### Completed tasks:
+
+- Implemented Google Cloud Vision API to obtain samples and process the first 20 files related to Afghanistan from the year 1992(google_cloud_vision_output).
+- Developed and implemented codes for counting the number of files based on their types, aiding in data organization.
+- Created CSV file(stats.csv) to track the number of files for each country and to calculate the progress of the project.
+
+
+### Questions and Plans:
+
+- Plan to continue exploring and employing various methods and tools to achieve outputs of desirable quality, focusing on continuous improvement and refinement of the project processes.
+
+
 ## Week of 11/20 - 11/24
 
 ### Completed tasks:
